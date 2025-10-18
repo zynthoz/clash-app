@@ -1976,6 +1976,10 @@ body::-webkit-scrollbar {
     height: calc(100vh - 200px);
   }
 
+  .md\:h-\[calc\(100vh-600px\)\] {
+    height: calc(100vh - 600px);
+  }
+
   .md\:min-w-\[200px\] {
     min-width: 200px;
   }
