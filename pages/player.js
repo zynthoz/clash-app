@@ -179,7 +179,7 @@ function displayBattleLog(battles) {
 
     return `
       <div class="bg-gradient-to-br from-slate-700 to-slate-800 p-4 rounded-2xl shadow-2xl border border-gray-500/30 backdrop-blur hover:scale-102 hover:border-amber-400/50 hover:shadow-amber-500/20 transition-all duration-300 ease-in-out">
-        <div class="flex flex-col sm:flex-row justify-between items-start sm:items-center mb-3">
+        <div class="flex flex-col sm:flex-row justify-between items-center sm:items-center mb-3">
           <div class="flex flex-col sm:flex-row items-center gap-2">
             <span class="text-sm text-blue-300">${outcomeIcon}</span>
             <span class="text-sm font-medium text-white">${battle.type} - ${gameMode}</span>
