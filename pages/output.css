@@ -1968,6 +1968,10 @@ body::-webkit-scrollbar {
     height: 900px;
   }
 
+  .md\:h-\[800px\] {
+    height: 800px;
+  }
+
   .md\:min-w-\[200px\] {
     min-width: 200px;
   }
@@ -2061,6 +2065,10 @@ body::-webkit-scrollbar {
   .lg\:mx-48 {
     margin-left: 12rem;
     margin-right: 12rem;
+  }
+
+  .lg\:h-\[580px\] {
+    height: 580px;
   }
 
   .lg\:w-1\/3 {
