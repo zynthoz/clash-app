@@ -1385,6 +1385,10 @@ video {
   padding-top: 1.5rem;
   padding-bottom: 1.5rem;
 }
+.px-8 {
+  padding-left: 2rem;
+  padding-right: 2rem;
+}
 .pb-14 {
   padding-bottom: 3.5rem;
 }
