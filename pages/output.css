@@ -1938,6 +1938,10 @@ body::-webkit-scrollbar {
     height: 700px;
   }
 
+  .md\:h-\[580px\] {
+    height: 580px;
+  }
+
   .md\:min-w-\[200px\] {
     min-width: 200px;
   }
