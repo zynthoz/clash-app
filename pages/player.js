@@ -187,7 +187,7 @@ function displayBattleLog(battles) {
           </div>
           <div class="text-xs text-gray-400 mt-1 sm:mt-0">${battleTime}</div>
         </div>
-        <div class="flex flex-col lg:flex-row gap-4 items-start">
+        <div class="flex flex-col lg:flex-row gap-4 items-center">
           <div class="flex-1 bg-gradient-to-br from-slate-700 to-blue-800 rounded-lg p-3 border border-blue-500/30">
             <div class="text-center mb-2">
               <div class="text-xs text-white font-bold truncate">${player.name}</div>
