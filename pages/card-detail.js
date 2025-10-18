@@ -36,7 +36,7 @@ function displayCardDetail(card) {
 
   // Breadcrumb navigation
   const breadcrumb = `
-    <div class="mb-6 text-left md:absolute md:left-4 lg:left-16">
+    <div class="mb-6 text-left md:absolute md:left-4 lg:left-16 z-20">
       <a href="card.html" class="text-blue-400 hover:text-amber-400 transition-colors text-lg md:text-base">← Back to Cards</a>
     </div>
   `;

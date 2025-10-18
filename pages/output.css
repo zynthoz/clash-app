@@ -600,6 +600,9 @@ video {
 .z-50 {
   z-index: 50;
 }
+.z-20 {
+  z-index: 20;
+}
 .col-span-full {
   grid-column: 1 / -1;
 }
@@ -1998,6 +2001,10 @@ body::-webkit-scrollbar {
 
   .md\:p-8 {
     padding: 2rem;
+  }
+
+  .md\:p-6 {
+    padding: 1.5rem;
   }
 
   .md\:px-8 {
