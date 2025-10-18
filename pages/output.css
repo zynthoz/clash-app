@@ -1904,6 +1904,11 @@ body::-webkit-scrollbar {
   .sm\:items-center {
     align-items: center;
   }
+
+  .sm\:px-12 {
+    padding-left: 3rem;
+    padding-right: 3rem;
+  }
 }
 
 @media (min-width: 768px) {
@@ -1987,6 +1992,11 @@ body::-webkit-scrollbar {
   .md\:px-48 {
     padding-left: 12rem;
     padding-right: 12rem;
+  }
+
+  .md\:px-24 {
+    padding-left: 6rem;
+    padding-right: 6rem;
   }
 
   .md\:text-3xl {
