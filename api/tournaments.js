@@ -1,4 +1,6 @@
-require("dotenv").config({ path: "../.env.local" });
+if (process.env.NODE_ENV !== 'production') {
+  require("dotenv").config({ path: "../.env.local" });
+}
 
 export default async function handler(req, res) {
   if (req.method !== 'GET') {
