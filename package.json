@@ -6,7 +6,8 @@
   "scripts": {
     "start": "concurrently \"npm run build-css\" \"npm run server\"",
     "server": "node main.js",
-    "build-css": "postcss pages/styles.css -o pages/output.css --watch"
+    "build-css": "postcss pages/styles.css -o pages/output.css --watch",
+    "dev": "vercel dev"
   },
   "author": "lime",
   "license": "ISC",
