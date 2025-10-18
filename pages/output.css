@@ -726,6 +726,9 @@ video {
 .h-\[900px\] {
   height: 900px;
 }
+.h-\[1100px\] {
+  height: 1100px;
+}
 .max-h-60 {
   max-height: 15rem;
 }
@@ -1909,6 +1912,10 @@ body::-webkit-scrollbar {
     padding-left: 3rem;
     padding-right: 3rem;
   }
+
+  .sm\:pb-0 {
+    padding-bottom: 0px;
+  }
 }
 
 @media (min-width: 768px) {
@@ -1997,6 +2004,14 @@ body::-webkit-scrollbar {
   .md\:px-24 {
     padding-left: 6rem;
     padding-right: 6rem;
+  }
+
+  .md\:pt-14 {
+    padding-top: 3.5rem;
+  }
+
+  .md\:pb-14 {
+    padding-bottom: 3.5rem;
   }
 
   .md\:text-3xl {
