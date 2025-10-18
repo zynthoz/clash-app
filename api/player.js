@@ -10,6 +10,9 @@ export default async function handler(req, res) {
   const token = process.env.CR_API_TOKEN;
   const playerTag = req.query.tag; // get from query string
   console.log("Token loaded:", token ? "yes ✅" : "no ❌");
+  if (!token) {
+    return res.status(500).json({ error: "API token not configured" });
+  }
   if (!playerTag) {
     return res.status(400).json({ error: "Player tag is required" });
   }

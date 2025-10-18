@@ -9,6 +9,9 @@ export default async function handler(req, res) {
 
   const token = process.env.CR_API_TOKEN;
   console.log("Token loaded:", token ? "yes ✅" : "no ❌");
+  if (!token) {
+    return res.status(500).json({ error: "API token not configured" });
+  }
 
   const location = req.query.location || 'global'; // Default to global
   const cursor = req.query.after || req.query.before;

@@ -9,6 +9,9 @@ export default async function handler(req, res) {
 
   const token = process.env.CR_API_TOKEN;
   console.log("Token loaded:", token ? "yes ✅" : "no ❌");
+  if (!token) {
+    return res.status(500).json({ error: "API token not configured" });
+  }
 
   const url = `https://proxy.royaleapi.dev/v1/globaltournaments`;
   console.log("Fetching tournaments URL:", url);
