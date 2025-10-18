@@ -1972,6 +1972,10 @@ body::-webkit-scrollbar {
     height: 800px;
   }
 
+  .md\:h-\[calc\(100vh-200px\)\] {
+    height: calc(100vh - 200px);
+  }
+
   .md\:min-w-\[200px\] {
     min-width: 200px;
   }
