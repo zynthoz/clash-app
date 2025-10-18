@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+    <head>
+    <title>Card Detail</title>
+    <link rel="stylesheet" href="output.css">
+    <style>
+        .tab-content { display: none; }
+        .tab-content.active { display: block; }
+        .tab-button { transition: all 0.3s ease; }
+        .tab-button.active { background: linear-gradient(135deg, #3b82f6, #f59e0b); color: white; }
+        .stat-card { backdrop-filter: blur(10px); background: rgba(30, 41, 59, 0.8); border: 1px solid rgba(59, 130, 246, 0.3); transition: all 0.3s ease; }
+        .stat-card:hover { transform: translateY(-5px); box-shadow: 0 10px 25px rgba(245, 158, 11, 0.3); }
+    </style>
+    </head>
+
+<body class="bg-gradient-to-br from-[#0f172a] to-[#1e293b] min-h-screen flex flex-col items-center text-outline relative pt-16">
+  <!-- Subtle texture overlay -->
+
+    <nav class="w-full fixed top-0 bg-gradient-to-r from-slate-900 via-blue-950 to-slate-900 p-4 shadow-2xl border-b border-blue-500/20 backdrop-blur-sm z-50">
+        <div class="absolute left-10 top-[11px] z-10">
+        <label for="default-search" class="mb-2 font-medium text-gray-900 sr-only dark:text-white">Search</label>
+        <div class="relative flex justify-center items-center">
+            <img src="img/logo.png" alt="Logo" class="h-[38px] w-[38px] mr-4">
+            <input type="search" id="default-search" class="block w-full py-2 pr-5 pl-4 h-[38px] text-gray-900 border border-gray-300 rounded-lg bg-white focus:ring-violet-600 focus:border-violet-600" placeholder="Search" required />
+        </div>
+        </div>
+        <div class="w-full flex justify-center">
+        <div class="flex w-full justify-between items-center max-w-4xl">
+            <a href="index.html" class="text-white text-xl">Home</a>
+            <a href="card.html" class="text-white text-xl">Cards</a>
+            <a href="clan.html" class="text-white text-xl">Clans</a>
+            <a href="tournament.html" class="text-white text-xl">Tournaments</a>
+        </div>
+        </div>
+    </nav>
+
+    <div id="searchModal" class="fixed inset-0 flex items-center justify-center z-50 hidden bg-black/30 backdrop-blur-lg">
+        <div class="w-full max-w-md">
+        <label for="tagInput" class="block text-4xl font-medium text-white mb-2">Find Players</label>
+        <input type="text" id="modalSearchInput" placeholder="#V2JUC022J" class="w-full p-2 border mt-4 border-gray-300 rounded">
+        <div id="searchResults" class="mt-4 max-h-60 overflow-y-auto"></div>
+        </div>
+    </div>
+
+    <div id="loading" class="fixed inset-0 top-15 bg-black bg-opacity-50 flex items-center justify-center z-50 hidden">
+        <div class="spinner"></div>
+    </div>
+
+        <div id="mainContent"></div>
+
+        <!-- Scroll to Top Button -->
+        <button id="scrollToTop" class="fixed bottom-4 right-4 bg-gradient-to-r from-blue-800 to-blue-600 text-white p-3 rounded-2xl shadow-lg hover:from-amber-600 hover:to-amber-400 hover:scale-105 transition-all duration-300 opacity-0 pointer-events-none z-50">
+          <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 10l7-7m0 0l7 7m-7-7v18"></path>
+          </svg>
+        </button>
+
+  <!-- Link external JS -->
+  <script src="card-detail.js"></script>
+  <script src="search.js"></script>
+</body>
+</html>

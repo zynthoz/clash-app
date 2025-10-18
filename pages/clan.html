@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Clan Leaderboard</title>
+  <link rel="stylesheet" href="output.css">
+  <style>
+
+    #scrollable-content::-webkit-scrollbar {
+      width: 8px;
+    }
+
+    #scrollable-content::-webkit-scrollbar-track {
+      background: rgba(30, 41, 59, 0.5);
+      border-radius: 10px;
+      border-left: 1px solid rgba(255, 255, 255, 0.1);
+    }
+
+    #scrollable-content::-webkit-scrollbar-thumb {
+      background: linear-gradient(135deg, rgba(59, 130, 246, 0.8) 0%, rgba(245, 158, 11, 0.8) 100%);
+      border-radius: 10px;
+    }
+
+    #scrollable-content::-webkit-scrollbar-thumb:hover {
+      background: linear-gradient(135deg, rgba(59, 130, 246, 1) 0%, rgba(245, 158, 11, 1) 100%);
+    }
+
+    /* Custom dropdown arrow styling */
+    #leaderboardType {
+      -webkit-appearance: none;
+      -moz-appearance: none;
+      appearance: none;
+      background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' fill='none' viewBox='0 0 20 20'%3e%3cdefs%3e%3clinearGradient id='arrowGrad' x1='0%25' y1='0%25' x2='100%25' y2='0%25'%3e%3cstop offset='0%25' style='stop-color:%230f172a;stop-opacity:1' /%3e%3cstop offset='100%25' style='stop-color:%231e293b;stop-opacity:1' /%3e%3c/linearGradient%3e%3c/defs%3e%3cpath stroke='url(%23arrowGrad)' stroke-linecap='round' stroke-linejoin='round' stroke-width='1.5' d='m6 8 4 4 4-4'/%3e%3c/svg%3e");
+      background-position: right 0.75rem center;
+      background-repeat: no-repeat;
+      background-size: 1.5em 1.5em;
+      padding-right: 2.5rem;
+    }
+
+    #leaderboardType:hover {
+      background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' fill='none' viewBox='0 0 20 20'%3e%3cdefs%3e%3clinearGradient id='arrowGrad' x1='0%25' y1='0%25' x2='100%25' y2='0%25'%3e%3cstop offset='0%25' style='stop-color:%233b1f00;stop-opacity:1' /%3e%3cstop offset='100%25' style='stop-color:%236b2a00;stop-opacity:1' /%3e%3c/linearGradient%3e%3c/defs%3e%3cpath stroke='url(%23arrowGrad)' stroke-linecap='round' stroke-linejoin='round' stroke-width='1.5' d='m6 8 4 4 4-4'/%3e%3c/svg%3e");
+    }
+  </style>
+</head>
+
+<body class="bg-gradient-to-br from-slate-900 via-blue-950 to-slate-800 min-h-screen flex flex-col items-center text-outline relative pt-16">
+  <!-- Subtle texture overlay -->
+  <div class="absolute inset-0 bg-gradient-to-br from-blue-900/10 to-amber-900/10 pointer-events-none"></div>
+  <div class="absolute inset-0 bg-[url('data:image/svg+xml,%3Csvg width="60" height="60" viewBox="0 0 60 60" xmlns="http://www.w3.org/2000/svg"%3E%3Cg fill="none" fill-rule="evenodd"%3E%3Cg fill="%23ffffff" fill-opacity="0.02"%3E%3Ccircle cx="30" cy="30" r="1"/%3E%3C/g%3E%3C/g%3E%3C/svg%3E')] opacity-20"></div>
+
+  <nav class="w-full fixed top-0 bg-gradient-to-r from-slate-900 via-blue-950 to-slate-900 p-4 shadow-2xl border-b border-blue-500/20 backdrop-blur-sm z-50">
+        <div class="max-w-4xl mx-auto flex justify-between items-center">
+        <div class="absolute left-10 top-[11px] z-10">
+        <label for="default-search" class="mb-2 font-medium text-gray-900 sr-only dark:text-white">Search</label>
+        <div class="relative flex justify-center items-center">
+            <img src="img/logo.png" alt="Logo" class="h-[38px] w-[38px] mr-4">
+            <input type="search" id="default-search" class="block w-full py-2 pr-5 pl-4 h-[38px] text-gray-900 border border-gray-300 rounded-lg bg-white focus:ring-violet-600 focus:border-violet-600" placeholder="Search" required />
+        </div>
+        </div>
+            <a href="index.html" class="text-white text-xl">Home</a>
+            <a href="card.html" class="text-white text-xl">Cards</a>
+            <a href="clan.html" class="text-white text-xl">Clans</a>
+            <a href="tournament.html" class="text-white text-xl">Tournaments</a>
+        </div>
+    </nav>
+
+    <div id="searchModal" class="fixed inset-0 flex items-center justify-center z-50 hidden bg-black/30 backdrop-blur-lg">
+        <div class="w-full max-w-md">
+        <label for="tagInput" class="block text-4xl font-medium text-white mb-2">Find Players</label>
+        <input type="text" id="modalSearchInput" placeholder="#V2JUC022J" class="w-full p-2 border mt-4 border-gray-300 rounded">
+        <div id="searchResults" class="mt-4 max-h-60 overflow-y-auto"></div>
+        </div>
+    </div>
+
+    <div id="loading" class="fixed inset-0 top-15 bg-black bg-opacity-50 flex items-center justify-center z-50 hidden">
+        <div class="spinner"></div>
+    </div>
+
+  <div id="mainContent" class="py-14 px-48 w-full text-white">
+    <div class="text-center mb-8">
+      <h1 class="text-4xl font-bold text-white mb-4">Top Clans Leaderboard</h1>
+      <div class="flex justify-center items-center gap-4">
+        <select id="leaderboardType" class="bg-blue-700 text-white px-6 py-3 rounded-2xl shadow-lg hover:shadow-xl hover:from-amber-600 hover:to-amber-400 transition-all duration-300 border border-blue-500/30 cursor-pointer hover:shadow-slate-700/50 hover:shadow-lg z-10 pointer-events-auto">
+          <option class="text-white bg-slate-900" value="global">Global</option>
+          <option class="text-white bg-slate-900" value="57000000">Europe</option>
+          <option class="text-white bg-slate-900" value="57000001">North America</option>
+          <option class="text-white bg-slate-900" value="57000002">South America</option>
+          <option class="text-white bg-slate-900" value="57000003">Asia</option>
+          <option class="text-white bg-slate-900" value="57000004">Oceania</option>
+        </select>
+      </div>
+    </div>
+
+    <div id="leaderboard-div" class="bg-gradient-to-br from-slate-800 via-blue-900 to-slate-900 rounded-2xl shadow-2xl border border-slate-600/30 backdrop-blur-sm relative h-[580px] w-full hover:shadow-slate-700/50 transition-all duration-300">
+      <div id="leaderboardLoading" class="absolute inset-0 bg-gray-800 bg-opacity-75 flex flex-col items-center rounded-2xl justify-center z-10 hidden backdrop-blur-sm">
+        <div class="spinner mb-4"></div>
+        <p class="text-white text-lg font-semibold">Loading Clans...</p>
+      </div>
+        <div class="rounded-tl-[16px] rounded-bl-[16px] overflow-hidden h-full">
+    <div style="scrollbar-gutter: stable;" id="scrollable-content" class="overflow-y-auto overflow-x-hidden max-h-[calc(100%-1px)] relative">
+
+      <table class="w-full table-auto table-fixed">
+        <thead class="sticky top-0 bg-gradient-to-r from-slate-800 to-slate-900 z-10 border-b border-slate-600/30 h-16 pr-2">
+          <tr>
+            <th class="px-4 py-2 text-center font-bold text-slate-300">Rank</th>
+            <th class="px-4 py-2 text-left font-bold text-slate-300">Name</th>
+            <th class="px-4 py-2 text-left font-bold text-slate-300">Tag</th>
+            <th class="px-4 py-2 text-left font-bold text-slate-300">Clan Score</th>
+            <th class="px-4 py-2 text-left font-bold text-slate-300">Members</th>
+            <th class="px-4 py-2 text-left font-bold text-slate-300">Location</th>
+          </tr>
+        </thead>
+        <tbody id="leaderboardTable"></tbody>
+      </table>
+    </div>
+  </div>
+    </div>
+
+    <div id="pagination" class="flex justify-center items-center mt-6 gap-4">
+      <!-- Pagination buttons will be inserted here -->
+    </div>
+  </div>
+
+  <!-- Scroll to Top Button -->
+  <button onclick="window.scrollTo({top: 0, behavior: 'smooth'})" class="fixed bottom-4 right-4 bg-gradient-to-r from-blue-800 to-blue-600 text-white p-3 rounded-2xl shadow-lg hover:from-amber-600 hover:to-amber-400 hover:scale-105 transition-all duration-300 opacity-0 pointer-events-none z-50">
+    <span class="text-lg">⬆️</span>
+  </button>
+
+  <!-- Link external JS -->
+<script src="clan.js"></script>

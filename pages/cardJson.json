@@ -1,0 +1,2569 @@
+{
+  "cards": [
+    {
+      "name": "Knight",
+      "elixir": 3,
+      "rarity": "common",
+      "description": {
+        "strength": "High hitpoints for a 3-elixir troop, making him an excellent mini-tank and defensive counter against single-target troops like Hog Rider and Mini P.E.K.K.A. Versatile and low-cost.",
+        "weakness": "Low damage per second (DPS) and cannot attack air troops. Easily overwhelmed by air swarms (Minions, Bats) or high-DPS ground swarms (Goblin Gang, Skeleton Army).",
+        "popularity": "Very high, often used as a defensive 'meat shield' in cycle and control decks due to his excellent tanking for his cost."
+      },
+      "related_cards": [
+        {
+          "name": "Valkyrie",
+          "relation": "Functional Alternative",
+          "reason": "Higher-cost, higher-HP ground mini-tank but with 360-degree splash damage for anti-swarm defense."
+        },
+        {
+          "name": "Archers",
+          "relation": "Synergy",
+          "reason": "Commonly paired on offense/defense. Knight tanks ground while Archers provide ranged air/ground support."
+        },
+        {
+          "name": "Mini P.E.K.K.A",
+          "relation": "Direct Counter",
+          "reason": "Counters Mini P.E.K.K.A effectively due to his high HP for a positive elixir trade."
+        }
+      ]
+    },
+    {
+      "name": "Archers",
+      "elixir": 3,
+      "rarity": "common",
+      "description": {
+        "strength": "Two ranged units that target both air and ground. Can be split to defend both lanes and are less vulnerable to single-target spells like The Log or Barbarian Barrel than swarms.",
+        "weakness": "Low individual HP, making them susceptible to Fireball, Poison, or Arrows if grouped. Their damage is split, which is inefficient against high-HP tanks.",
+        "popularity": "Moderate to high, a staple in many cycle decks and sometimes used as cheap, multi-purpose air defense."
+      },
+      "related_cards": [
+        {
+          "name": "Musketeer",
+          "relation": "Functional Alternative",
+          "reason": "Higher-cost, higher-damage, single-unit ranged air/ground support that is more vulnerable to Lightning/Rocket."
+        },
+        {
+          "name": "Firecracker",
+          "relation": "Functional Alternative",
+          "reason": "Same elixir cost, provides splash damage and unique King Tower activation utility, but less reliable as pure defense."
+        },
+        {
+          "name": "Fireball",
+          "relation": "Direct Counter",
+          "reason": "A common medium spell used to eliminate Archers and other medium-HP supports for a neutral or positive trade."
+        }
+      ]
+    },
+    {
+      "name": "Goblins",
+      "elixir": 2,
+      "rarity": "common",
+      "description": {
+        "strength": "Very high DPS for a 2-elixir card, effective at quickly taking down single-target ground units and towers if left unchecked. Low elixir cost for fast cycle.",
+        "weakness": "Extremely fragile (die to Zap/Giant Snowball) and easily countered by all splash and small spells (The Log, Barbarian Barrel, Arrows). Only target ground.",
+        "popularity": "Low to moderate, often replaced by Goblin Gang or Skeleton Army for more versatility or tankiness, but still seen in hyper-cycle decks."
+      },
+      "related_cards": [
+        {
+          "name": "Goblin Gang",
+          "relation": "Functional Alternative",
+          "reason": "Higher-cost alternative with air-targeting Spear Goblins for added versatility and spell bait."
+        },
+        {
+          "name": "The Log",
+          "relation": "Direct Counter",
+          "reason": "Instantly and cheaply clears Goblins and other ground swarms, making Goblins a 'Log Bait' card."
+        },
+        {
+          "name": "Skeletons",
+          "relation": "Functional Alternative",
+          "reason": "Even cheaper 1-elixir cycle card, but used purely for distraction and cycle, not damage."
+        }
+      ]
+    },
+    {
+      "name": "Minions",
+      "elixir": 3,
+      "rarity": "common",
+      "description": {
+        "strength": "Three flying units that target both air and ground. High burst damage on defense against tanks and air troops. Immune to most ground-only damage/spells.",
+        "weakness": "Vulnerable to Arrows, Fireball, and all air-targeting troops/buildings. Easily distracted.",
+        "popularity": "Moderate, used as a reliable air defense and counter-push unit in decks where Minion Horde is too risky."
+      },
+      "related_cards": [
+        {
+          "name": "Bats",
+          "relation": "Functional Alternative",
+          "reason": "Cheaper 2-elixir alternative, offering 4 units with similar DPS but much lower HP (die to Zap/Snowball)."
+        },
+        {
+          "name": "Minion Horde",
+          "relation": "High-Risk Alternative",
+          "reason": "Higher-cost, high-risk, high-reward alternative that offers much higher burst damage but is extremely vulnerable to spells."
+        },
+        {
+          "name": "Arrows",
+          "relation": "Direct Counter",
+          "reason": "A primary spell used to eliminate Minions and other air swarms for a positive elixir trade."
+        }
+      ]
+    },
+    {
+      "name": "Barbarians",
+      "elixir": 5,
+      "rarity": "common",
+      "description": {
+        "strength": "Five medium-HP, high-DPS ground units. Excellent at surrounding and quickly eliminating tanks (Giant, P.E.K.K.A, Golem) and providing a strong counter-push.",
+        "weakness": "High elixir cost and very vulnerable to splash damage (Valkyrie, Wizard, Fireball, Executioner). Cannot attack air troops.",
+        "popularity": "Low, the high cost and vulnerability to popular splash units limit their use, mostly seen in decks that bait out opponent's splash spells."
+      },
+      "related_cards": [
+        {
+          "name": "Valkyrie",
+          "relation": "Direct Counter",
+          "reason": "Valkyrie's 360-degree splash attack easily and cheaply clears Barbarians for a large positive elixir trade."
+        },
+        {
+          "name": "Elite Barbarians",
+          "relation": "Functional Alternative",
+          "reason": "Same cost, but focuses on two extremely fast, high-DPS troops instead of a swarm, for aggressive bridge-spam pushes."
+        },
+        {
+          "name": "Barbarian Barrel",
+          "relation": "Spell Synergy",
+          "reason": "A common small spell that synergizes with Barbarians, but often a poor choice for bait since Barbarians are weak to Fireball/Poison."
+        }
+      ]
+    },
+    {
+      "name": "Skeletons",
+      "elixir": 1,
+      "rarity": "common",
+      "description": {
+        "strength": "The cheapest card in the game. Incredible cycle utility, bait for Log/Snowball, and highly effective distraction or surround-kill tool for single-target troops like Mini P.E.K.K.A, Prince, and Inferno Dragon.",
+        "weakness": "Die instantly to anything. Cannot counter splash or air units alone. Their value is purely based on distraction and cycle speed.",
+        "popularity": "Very high, an essential card in most competitive cycle decks for their unbeatable elixir efficiency and speed."
+      },
+      "related_cards": [
+        {
+          "name": "Ice Spirit",
+          "relation": "Functional Alternative",
+          "reason": "Same 1-elixir cost, but provides a crucial stun/freeze utility instead of pure cycle/distraction."
+        },
+        {
+          "name": "Electro Spirit",
+          "relation": "Functional Alternative",
+          "reason": "Same 1-elixir cost, but provides an area-of-effect stun and chain damage for clearing swarms."
+        },
+        {
+          "name": "The Log",
+          "relation": "Spell Bait/Counter",
+          "reason": "One of the best 'Log Bait' cards, as using a Log on Skeletons gives the player a +1 elixir advantage in most scenarios."
+        }
+      ]
+    },
+    {
+      "name": "Bomber",
+      "elixir": 2,
+      "rarity": "common",
+      "description": {
+        "strength": "High-damage area-of-effect (AoE) attack on a very cheap troop. Excellent at clearing ground swarms (Skeleton Army, Goblin Gang) and dealing consistent splash to ground tanks.",
+        "weakness": "Low HP and cannot attack air troops. Instantly countered by any flying unit (Minions, Bats, Baby Dragon).",
+        "popularity": "Moderate, a niche pick for cheap ground splash defense, sometimes seen in fast cycle decks."
+      },
+      "related_cards": [
+        {
+          "name": "Valkyrie",
+          "relation": "Functional Alternative",
+          "reason": "Higher-HP, higher-cost ground splash unit that can tank, used in slower control decks."
+        },
+        {
+          "name": "Fire Spirit",
+          "relation": "Functional Alternative",
+          "reason": "Cheaper 1-elixir troop that provides instant air/ground splash, but is purely a suicide unit."
+        },
+        {
+          "name": "Bats",
+          "relation": "Direct Counter",
+          "reason": "Any air unit easily and cheaply counters the ground-only Bomber for a strong positive elixir trade."
+        }
+      ]
+    },
+    {
+      "name": "Spear Goblins",
+      "elixir": 2,
+      "rarity": "common",
+      "description": {
+        "strength": "Three ranged units that target both air and ground for a low cost. Long range allows for safe defense behind towers or units.",
+        "weakness": "Very low HP (die to Zap/Snowball/The Log). Low DPS.",
+        "popularity": "Low, generally outshined by more impactful 2-elixir options like Ice Spirit or Electro Spirit, but still a cheap cycle and multi-target air defense option."
+      },
+      "related_cards": [
+        {
+          "name": "Dart Goblin",
+          "relation": "Functional Alternative",
+          "reason": "Higher-damage, longer-range unit for 3 elixir, often used for similar air-targeting and spell-baiting roles."
+        },
+        {
+          "name": "Archers",
+          "relation": "Functional Alternative",
+          "reason": "Higher-HP, higher-damage 3-elixir ranged units that are more resistant to small spells."
+        },
+        {
+          "name": "Zap",
+          "relation": "Direct Counter",
+          "reason": "Instantly kills all three Spear Goblins for a neutral elixir trade, but is a common response."
+        }
+      ]
+    },
+    {
+      "name": "Minion Horde",
+      "elixir": 5,
+      "rarity": "common",
+      "description": {
+        "strength": "Six flying units with extremely high collective DPS. Can melt tanks, win conditions, and towers almost instantly if left unchecked.",
+        "weakness": "High elixir cost and very high risk. Instantly wiped out for an even or positive elixir trade by Arrows, Fireball, Wizard, or other cheap air-targeting splash units.",
+        "popularity": "Low to moderate, primarily a 'spell bait' card in decks that overload the opponent's anti-swarm spells."
+      },
+      "related_cards": [
+        {
+          "name": "Arrows",
+          "relation": "Direct Counter",
+          "reason": "The classic, hard counter to Minion Horde, providing a massive +2 elixir advantage and instantly clearing the threat."
+        },
+        {
+          "name": "Minions",
+          "relation": "Low-Risk Alternative",
+          "reason": "Cheaper, lower-risk alternative that is a better option for pure defense without risking a huge negative elixir trade."
+        },
+        {
+          "name": "Mega Minion",
+          "relation": "Tank Killer Alternative",
+          "reason": "Higher-HP, single-target air unit that is spell-resistant, used for tank killing when splash is not a concern."
+        }
+      ]
+    },
+    {
+      "name": "Royal Giant",
+      "elixir": 6,
+      "rarity": "common",
+      "description": {
+        "strength": "Building-targeting Win Condition with long range, allowing him to attack the Crown Tower from the bridge, often without crossing the river. High HP for tanking.",
+        "weakness": "Very expensive, slow movement, and low DPS for his cost. Easily distracted by defensive buildings (Tesla, Cannon, Inferno Tower) or high-DPS troops (Mini P.E.K.K.A, Inferno Dragon).",
+        "popularity": "High in specific 'Royal Giant' beatdown/cycle decks, often paired with Evolution to increase his threat level and popularity."
+      },
+      "related_cards": [
+        {
+          "name": "Inferno Tower",
+          "relation": "Direct Counter",
+          "reason": "The high HP of Royal Giant makes him highly vulnerable to the Inferno Tower's ramping damage, often resulting in a successful defense."
+        },
+        {
+          "name": "Giant",
+          "relation": "Functional Alternative",
+          "reason": "Cheaper 5-elixir tank with higher HP, but must cross the bridge to attack the tower, making it easier to defend."
+        },
+        {
+          "name": "Royal Hogs",
+          "relation": "Functional Alternative",
+          "reason": "Same range and building-targeting nature, but offers a split-lane push instead of a single tank."
+        }
+      ]
+    },
+    {
+      "name": "Ice Spirit",
+      "elixir": 1,
+      "rarity": "common",
+      "description": {
+        "strength": "The cheapest troop with an area-of-effect (AoE) stun (1.5 seconds) upon contact. Excellent cycle card, can freeze enemy troops for a moment to reset charge attacks (Prince, Sparky) or buy time for tower/support units.",
+        "weakness": "Dies in one hit. Short jump range. No damage to air troops.",
+        "popularity": "Very high, a top-tier cycle card due to its low cost and potent defensive stun utility."
+      },
+      "related_cards": [
+        {
+          "name": "Electro Spirit",
+          "relation": "Functional Alternative",
+          "reason": "Same 1-elixir cost, but provides a chain-lightning AoE stun that also kills all small swarms, making it more offensive."
+        },
+        {
+          "name": "Skeletons",
+          "relation": "Functional Alternative",
+          "reason": "Same 1-elixir cost, but used for distraction/cycle speed instead of the Ice Spirit's unique stun utility."
+        },
+        {
+          "name": "Inferno Dragon",
+          "relation": "Synergy/Counter",
+          "reason": "Can reset the Inferno Dragon's beam, making it a powerful defensive utility card against the strongest single-target threats."
+        }
+      ]
+    },
+    {
+      "name": "Fire Spirit",
+      "elixir": 1,
+      "rarity": "common",
+      "description": {
+        "strength": "The cheapest AoE troop damage. Instantly clears most small swarms (Bats, Skeletons, Goblins) and deals good splash damage for its cost. Targets both air and ground.",
+        "weakness": "Dies in one hit. Short jump range. Damage is less effective on higher-HP troops than Ice Spirit's utility.",
+        "popularity": "Moderate, used in cycle decks that need fast, cheap splash damage, especially as an alternative to Zap or Ice Spirit."
+      },
+      "related_cards": [
+        {
+          "name": "Electro Spirit",
+          "relation": "Functional Alternative",
+          "reason": "Same 1-elixir cost, offering stun utility and similar anti-swarm capability, but with less direct damage."
+        },
+        {
+          "name": "Zap",
+          "relation": "Functional Alternative",
+          "reason": "2-elixir small spell that provides a reliable stun and damage to clear small swarms like Bats/Skeletons, but with less damage than Fire Spirit's explosion."
+        },
+        {
+          "name": "Bats",
+          "relation": "Direct Counter",
+          "reason": "The Fire Spirit is a cheap and effective counter to Bats and other low-HP air swarms, giving a strong positive elixir trade."
+        }
+      ]
+    },
+    {
+      "name": "Goblin Gang",
+      "elixir": 3,
+      "rarity": "common",
+      "description": {
+        "strength": "Six units (three Goblins and three Spear Goblins). High total DPS, targets both air and ground, and highly effective for swarm defense or Log/Barbarian Barrel bait.",
+        "weakness": "Vulnerable to all small spells (Log, Barbarian Barrel, Zap, Giant Snowball, Arrows) and splash units (Valkyrie, Bomber).",
+        "popularity": "High, a core card in 'Log Bait' and other control decks due to its versatility and bait potential."
+      },
+      "related_cards": [
+        {
+          "name": "The Log",
+          "relation": "Direct Counter/Bait",
+          "reason": "The primary spell used to counter the ground units of Goblin Gang, making it one of the core cards in the 'Log Bait' archetype."
+        },
+        {
+          "name": "Skeleton Army",
+          "relation": "Functional Alternative",
+          "reason": "Higher-DPS, lower-elixir ground swarm alternative, but much more vulnerable to Zap and cannot target air."
+        },
+        {
+          "name": "Rascals",
+          "relation": "Functional Alternative",
+          "reason": "Higher-cost, high-HP ground swarm alternative that offers a tank (Boy) and ranged anti-air (Girls)."
+        }
+      ]
+    },
+    {
+      "name": "Elite Barbarians",
+      "elixir": 6,
+      "rarity": "common",
+      "description": {
+        "strength": "Two extremely high-DPS, fast-moving ground troops. Devastating on offense, capable of taking a tower in seconds if a defensive unit is placed on the bridge and is not prepared for them.",
+        "weakness": "Very high elixir cost and easily countered with swarms (Skeleton Army, Goblin Gang) or high-HP troops like Giant Skeleton or P.E.K.K.A for a massive positive elixir trade.",
+        "popularity": "Low to moderate, mostly seen as a sudden, high-risk, high-reward punish card, often in bridge-spam decks."
+      },
+      "related_cards": [
+        {
+          "name": "P.E.K.K.A",
+          "relation": "Direct Counter",
+          "reason": "P.E.K.K.A is the ultimate ground-unit killer, easily defeating Elite Barbarians for a strong positive elixir trade."
+        },
+        {
+          "name": "Battle Ram",
+          "relation": "Synergy",
+          "reason": "Commonly paired in 'Bridge Spam' decks for an aggressive, fast push that demands an immediate, heavy response."
+        },
+        {
+          "name": "Barbarians",
+          "relation": "Functional Alternative",
+          "reason": "Slower, swarm-based alternative with more total HP but less burst damage and speed."
+        }
+      ]
+    },
+    {
+      "name": "Royal Recruits",
+      "elixir": 7,
+      "rarity": "common",
+      "description": {
+        "strength": "Six high-HP shield units, deployed across both lanes. Excellent at creating split-lane pressure, defending against all ground units, and distracting single-target threats. Shields provide resistance to damage.",
+        "weakness": "Highest elixir cost for a common card. Very vulnerable to splash damage, especially Fireball, Poison, or Bowler. Their slow speed makes them ineffective for a fast counter-push.",
+        "popularity": "Low to moderate, primarily used in control/beatdown decks focused on split-lane pressure and defense, often paired with their Evolution."
+      },
+      "related_cards": [
+        {
+          "name": "Bowler",
+          "relation": "Direct Counter",
+          "reason": "Bowler's knockback and AoE attack easily breaks the shields and stuns/damages the Recruits, making it an excellent counter."
+        },
+        {
+          "name": "Royal Hogs",
+          "relation": "Synergy",
+          "reason": "Often used in the same 'Recruits-Hogs' decks to create maximum split-lane pressure and bait different types of anti-swarm cards."
+        },
+        {
+          "name": "Barbarians",
+          "relation": "Functional Alternative",
+          "reason": "Cheaper 5-elixir swarm that is more flexible on defense but does not offer the shield or the split-lane deployment."
+        }
+      ]
+    },
+    {
+      "name": "Bats",
+      "elixir": 2,
+      "rarity": "common",
+      "description": {
+        "strength": "Four flying units for only 2 elixir. Very high DPS, excellent at taking down tanks, Mini P.E.K.K.A, and Inferno Tower on defense. Immune to ground-only damage/spells.",
+        "weakness": "Extremely fragile (die to Zap, Snowball, Ice Spirit, or any single air-targeting splash unit).",
+        "popularity": "High, a staple in many cycle and beatdown decks as cheap, high-DPS air defense and a cycle card."
+      },
+      "related_cards": [
+        {
+          "name": "Zap",
+          "relation": "Direct Counter",
+          "reason": "The most common and efficient hard counter to Bats, instantly eliminating them for a neutral elixir trade."
+        },
+        {
+          "name": "Minions",
+          "relation": "Functional Alternative",
+          "reason": "Higher-HP, 3-elixir alternative that is resistant to Zap/Snowball and can survive Arrows."
+        },
+        {
+          "name": "Hog Rider",
+          "relation": "Synergy",
+          "reason": "A core pairing in many Hog Cycle decks, as Bats provide cheap, fast, high-DPS air support for the Hog."
+        }
+      ]
+    },
+    {
+      "name": "Rascals",
+      "elixir": 5,
+      "rarity": "common",
+      "description": {
+        "strength": "Deploys a tanky Rascal Boy and two ranged Rascal Girls. Excellent value as a defensive combo that creates three threats (tank and split damage). Can pressure both lanes or defend effectively.",
+        "weakness": "High elixir cost makes an unsuccessful defense very punishing. Rascal Girls die to Fireball or Poison, significantly reducing the card's value.",
+        "popularity": "Moderate, used in specific control or Log Bait decks that capitalize on their split-push and bait potential."
+      },
+      "related_cards": [
+        {
+          "name": "Fireball",
+          "relation": "Direct Counter",
+          "reason": "A well-placed Fireball can eliminate the two high-damage Rascal Girls, gutting the card's defensive/offensive value for a positive trade."
+        },
+        {
+          "name": "Goblin Gang",
+          "relation": "Spell Bait Alternative",
+          "reason": "Cheaper 'bait' alternative that focuses on raw swarm DPS instead of the Rascals' split tank/support combo."
+        },
+        {
+          "name": "Royal Recruits",
+          "relation": "Functional Alternative",
+          "reason": "Higher-cost, high-HP ground swarm that offers full split-lane deployment and shield resistance."
+        }
+      ]
+    },
+    {
+      "name": "Skeleton Barrel",
+      "elixir": 3,
+      "rarity": "common",
+      "description": {
+        "strength": "Flying barrel that drops a swarm of Skeletons upon destruction or landing. Excellent 'air tank' for a small cost, and the Skeletons pose a great threat if they reach the tower. Good bait for Zap/Log.",
+        "weakness": "The Skeletons are easily cleared by small spells, making the card unreliable as a direct tower-damage unit. Easily distracted by flying units or defensive buildings.",
+        "popularity": "Moderate, used in some 'bait' decks or flying-beatdown decks to support other air threats."
+      },
+      "related_cards": [
+        {
+          "name": "The Log",
+          "relation": "Direct Counter/Bait",
+          "reason": "The Log or Zap easily clears the Skeletons that drop from the barrel, making it a critical spell bait card."
+        },
+        {
+          "name": "Balloon",
+          "relation": "Synergy",
+          "reason": "Often used as a cheap tank in front of a Balloon, baiting out a spell before the opponent can target the Balloon."
+        },
+        {
+          "name": "Goblin Barrel",
+          "relation": "Functional Alternative",
+          "reason": "Higher-risk, higher-reward ground-only win condition that is a much stronger direct tower threat and is the core Log Bait card."
+        }
+      ]
+    },
+    {
+      "name": "Firecracker",
+      "elixir": 3,
+      "rarity": "common",
+      "description": {
+        "strength": "Ranged splash-damage troop with a unique backward-dashing ability. The dash allows her to survive many counter attacks and extend her range, often activating the King Tower early against the opponent's push.",
+        "weakness": "Her dash can be unpredictable and activate the enemy King Tower. Vulnerable to direct damage spells like Fireball or Poison. Slow attack speed.",
+        "popularity": "High, a popular choice for cheap, unique splash control and King Tower activation, often a source of annoyance for opponents."
+      },
+      "related_cards": [
+        {
+          "name": "Fireball",
+          "relation": "Direct Counter",
+          "reason": "The most common medium spell used to instantly eliminate the Firecracker for a neutral elixir trade (or positive trade if she's already damaged)."
+        },
+        {
+          "name": "Archers",
+          "relation": "Functional Alternative",
+          "reason": "Cheaper 3-elixir ranged units that provide more consistent damage and are less likely to activate the opponent's King Tower."
+        },
+        {
+          "name": "Electro Wizard",
+          "relation": "Functional Alternative",
+          "reason": "Higher-cost, higher-HP air/ground splash troop with stun utility, used in slower control decks."
+        }
+      ]
+    },
+    {
+      "name": "Skeleton Dragons",
+      "elixir": 4,
+      "rarity": "common",
+      "description": {
+        "strength": "Two flying, medium-HP units that deal small splash damage. High collective damage and less vulnerable to single-target spells like Lightning or Rocket than single air units.",
+        "weakness": "The splash damage is small, making them less effective than Baby Dragon or Electro Dragon against heavy swarms. Vulnerable to Arrows or Fireball if grouped.",
+        "popularity": "Moderate, a solid, versatile card for air defense and medium-sized pushes, often paired with Lava Hound."
+      },
+      "related_cards": [
+        {
+          "name": "Baby Dragon",
+          "relation": "Functional Alternative",
+          "reason": "Single 4-elixir flying tank with a larger, more consistent splash radius, but less single-target DPS."
+        },
+        {
+          "name": "Electro Dragon",
+          "relation": "Functional Alternative",
+          "reason": "Higher-cost 5-elixir flying unit with chain lightning/stun, used for controlling multiple threats simultaneously."
+        },
+        {
+          "name": "Lava Hound",
+          "relation": "Synergy",
+          "reason": "A primary support unit for Lava Hound pushes, providing air defense and chip damage behind the tank."
+        }
+      ]
+    },
+    {
+      "name": "Electro Spirit",
+      "elixir": 1,
+      "rarity": "common",
+      "description": {
+        "strength": "The cheapest troop with chain lightning AoE stun upon contact. Can stun and damage up to 9 units, completely clearing swarms (Skeletons, Bats, Goblins) and resetting multiple units' attacks simultaneously.",
+        "weakness": "Dies in one hit. Short jump range. Stun duration is very short.",
+        "popularity": "Very high, a top-tier cycle and utility card for its unbeatable elixir efficiency, counter-swarm potential, and ability to reset multiple enemies."
+      },
+      "related_cards": [
+        {
+          "name": "Ice Spirit",
+          "relation": "Functional Alternative",
+          "reason": "Same 1-elixir cost, but provides a longer single-target stun for better tank-kiting and tower defense."
+        },
+        {
+          "name": "Zap",
+          "relation": "Functional Alternative",
+          "reason": "2-elixir small spell with a stun that is more reliable to land but doesn't instantly kill swarms like the Electro Spirit."
+        },
+        {
+          "name": "Inferno Tower",
+          "relation": "Synergy/Counter",
+          "reason": "A cheap and effective way to reset the Inferno Tower's beam to prevent it from killing a tank."
+        }
+      ]
+    },
+    {
+      "name": "Berserker",
+      "elixir": 2,
+      "rarity": "common",
+      "description": {
+        "strength": "A fast-moving melee troop that gains damage and attack speed as his HP lowers. Can be an unexpected threat if he manages to connect with a tower in his 'raging' state.",
+        "weakness": "Very low initial HP and easily distracted or eliminated before gaining momentum. Vulnerable to all small spells and swarms.",
+        "popularity": "Low, a niche card that requires specific deck synergy to be effective."
+      },
+      "related_cards": [
+        {
+          "name": "Lumberjack",
+          "relation": "Functional Alternative",
+          "reason": "Higher-cost, higher-HP troop that drops a Rage spell upon death, offering a similar 'raging' effect."
+        },
+        {
+          "name": "Mini P.E.K.K.A",
+          "relation": "Functional Alternative",
+          "reason": "Higher-HP, higher-DPS single-target unit with more consistent damage but lacks the ramping-up 'rage' mechanic."
+        },
+        {
+          "name": "Rage",
+          "relation": "Synergy",
+          "reason": "The Berserker's ability synergizes well with the Rage spell, maximizing his damage/speed increase."
+        }
+      ]
+    },
+    {
+      "name": "Cannon",
+      "elixir": 3,
+      "rarity": "common",
+      "description": {
+        "strength": "The cheapest defensive building. Excellent counter to ground-only win conditions (Hog Rider, Battle Ram, Giant, Golem) and can pull units to activate the King Tower. Low cost makes it great for cycle.",
+        "weakness": "Cannot target air troops. Short lifespan compared to other buildings. Easily destroyed by air units (Minions, Baby Dragon, Balloon).",
+        "popularity": "High in fast-cycle decks (Hog 2.6, X-Bow) where low-cost building defense is paramount."
+      },
+      "related_cards": [
+        {
+          "name": "Tesla",
+          "relation": "Functional Alternative",
+          "reason": "Higher-cost, higher-versatility building that targets air/ground and is immune to spells when burrowed."
+        },
+        {
+          "name": "Hog Rider",
+          "relation": "Direct Counter/Synergy",
+          "reason": "The most common ground win condition the Cannon is designed to counter, giving a positive elixir trade (+1) on defense."
+        },
+        {
+          "name": "Earthquake",
+          "relation": "Direct Counter",
+          "reason": "Easily kills the low-HP Cannon for an even elixir trade while damaging the tower, making it a critical threat."
+        }
+      ]
+    },
+    {
+      "name": "Mortar",
+      "elixir": 4,
+      "rarity": "common",
+      "description": {
+        "strength": "Long-range siege building that targets Crown Towers. High splash damage upon impact. Can be placed defensively to activate the King Tower and still pressure a lane.",
+        "weakness": "Minimum range prevents it from hitting troops placed directly on it. Slow attack speed. Easily distracted by other buildings or tanks. Vulnerable to air units.",
+        "popularity": "High in specific 'Mortar Cycle' decks where its siege ability is the main win condition."
+      },
+      "related_cards": [
+        {
+          "name": "X-Bow",
+          "relation": "Functional Alternative",
+          "reason": "Higher-cost, single-target siege building that locks onto the tower from the bridge and has a faster attack rate."
+        },
+        {
+          "name": "Rocket",
+          "relation": "Synergy",
+          "reason": "Often used in Mortar decks to finish off a weakened tower or destroy the opponent's defensive buildings/supports."
+        },
+        {
+          "name": "Baby Dragon",
+          "relation": "Direct Counter",
+          "reason": "Air-targeting units like Baby Dragon can easily destroy the ground-only Mortar, especially if placed over the river."
+        }
+      ]
+    },
+    {
+      "name": "Tesla",
+      "elixir": 4,
+      "rarity": "common",
+      "description": {
+        "strength": "Defensive building that targets both air and ground. Burrows underground when no enemy is in range, making it immune to all spells (Fireball, Rocket, Lightning). High single-target DPS.",
+        "weakness": "Relatively short range. Can be distracted by a well-timed tank placement.",
+        "popularity": "Very high, one of the most popular and versatile defensive buildings due to its anti-air/ground capability and spell immunity. A core card in many control and cycle decks."
+      },
+      "related_cards": [
+        {
+          "name": "Inferno Tower",
+          "relation": "Functional Alternative",
+          "reason": "Higher-cost building that sacrifices spell immunity for superior tank-killing ability due to ramping damage."
+        },
+        {
+          "name": "Hog Rider",
+          "relation": "Synergy/Counter",
+          "reason": "A common pairing in Hog Cycle, as the Tesla defends ground/air while the Hog attacks. Also an excellent hard counter to Hog Rider pushes."
+        },
+        {
+          "name": "Lightning",
+          "relation": "Spell Immunity",
+          "reason": "Its ability to burrow makes it the only building immune to powerful spells like Lightning and Rocket, forcing a troop-based counter."
+        }
+      ]
+    },
+    {
+      "name": "Arrows",
+      "elixir": 3,
+      "rarity": "common",
+      "description": {
+        "strength": "Large-radius spell that targets both air and ground. Instantly and reliably clears almost all low-HP swarms (Minion Horde, Skeleton Army, Bats, Princess) for a neutral or positive elixir trade.",
+        "weakness": "Higher cost than Zap/Giant Snowball/The Log. Cannot kill medium-HP units (Musketeer, Wizard) or buildings.",
+        "popularity": "Very high, a staple in many decks as a reliable answer to all flying swarms and ground bait units. Often preferred over Zap/Log when air swarms are popular."
+      },
+      "related_cards": [
+        {
+          "name": "Minion Horde",
+          "relation": "Direct Counter",
+          "reason": "The most effective counter to the high-risk Minion Horde, providing a massive +2 elixir advantage."
+        },
+        {
+          "name": "Zap",
+          "relation": "Functional Alternative",
+          "reason": "Cheaper 2-elixir small spell that provides a stun, but lacks the damage and radius to clear most high-HP swarms like Minion Horde or Goblin Gang."
+        },
+        {
+          "name": "Fireball",
+          "relation": "Functional Alternative",
+          "reason": "Higher-cost 4-elixir spell that can kill medium-HP units (Musketeer) but has a smaller radius and higher cost than Arrows."
+        }
+      ]
+    },
+    {
+      "name": "Zap",
+      "elixir": 2,
+      "rarity": "common",
+      "description": {
+        "strength": "Low-cost, small-radius spell that targets both air and ground. Deals light damage and provides a crucial 0.5-second stun, resetting charges (Prince, Sparky, Inferno Dragon) and instantly killing some swarms (Skeletons, Bats).",
+        "weakness": "Very low damage, cannot clear many swarms (Goblins, Minions). Small radius requires precise placement.",
+        "popularity": "Very high, a top-tier spell for its low cost, cycle potential, and vital stun utility, making it a reliable counter to several high-threat cards."
+      },
+      "related_cards": [
+        {
+          "name": "The Log",
+          "relation": "Functional Alternative",
+          "reason": "Same 2-elixir cost, but swaps the stun for a ground-only knockback/push and a longer range, making it better for ground control."
+        },
+        {
+          "name": "Inferno Dragon",
+          "relation": "Direct Counter",
+          "reason": "Its stun effect is critical for resetting the Inferno Dragon's ramping damage, allowing a counter-attack or defense."
+        },
+        {
+          "name": "Bats",
+          "relation": "Direct Counter",
+          "reason": "The cheapest and most common instant counter to Bats, neutralizing the threat for an even elixir trade."
+        }
+      ]
+    },
+    {
+      "name": "Giant Snowball",
+      "elixir": 2,
+      "rarity": "common",
+      "description": {
+        "strength": "Low-cost spell that targets both air and ground. Pushes all units back (including the King/Princess Towers) and applies a slow effect, disrupting pushes and buying time. Can activate the King Tower.",
+        "weakness": "Damage is low. The knockback can sometimes be detrimental if placed incorrectly. Less consistent at killing swarms than Zap/Log.",
+        "popularity": "Moderate to high, a strong utility spell for its unique knockback/slow effect, often used as an alternative to Zap/Log in certain decks."
+      },
+      "related_cards": [
+        {
+          "name": "Hog Rider",
+          "relation": "Direct Counter",
+          "reason": "The knockback is powerful for defending against fast win conditions like the Hog Rider, preventing it from getting an extra hit on the tower."
+        },
+        {
+          "name": "The Log",
+          "relation": "Functional Alternative",
+          "reason": "Same 2-elixir cost, but offers knockback on a ground-only plane instead of a radius, and doesn't apply a slow effect."
+        },
+        {
+          "name": "Electro Spirit",
+          "relation": "Synergy/Alternative",
+          "reason": "A cheap utility card that offers a different form of 'soft' control (slow/knockback) than the Electro Spirit's 'hard' stun."
+        }
+      ]
+    },
+    {
+      "name": "Royal Delivery",
+      "elixir": 3,
+      "rarity": "common",
+      "description": {
+        "strength": "Spell that drops a crate, stunning a small area and damaging all units (air/ground). Then, one Royal Recruits troop emerges. Excellent for clearing swarms and providing a tank/counter-push unit.",
+        "weakness": "The crate drop is slow, allowing quick units to escape. The single Recruits troop is easily dealt with.",
+        "popularity": "Low to moderate, a niche card for counter-push defense and clearing specific swarms, occasionally gaining popularity in certain metas."
+      },
+      "related_cards": [
+        {
+          "name": "Royal Recruits",
+          "relation": "Card Origin",
+          "reason": "The single Recruits troop that spawns is the same unit as the Royal Recruits card, sharing the shield mechanic."
+        },
+        {
+          "name": "Fireball",
+          "relation": "Functional Alternative",
+          "reason": "Same 4-elixir spell cost (Royal Delivery is 3 elixir, Fireball is 4 elixir). Fireball offers more reliable, instant damage, while Delivery offers a troop/stun."
+        },
+        {
+          "name": "Goblin Barrel",
+          "relation": "Functional Alternative",
+          "reason": "A 3-elixir spell that drops a troop swarm for a different type of surprise attack, but is only ground-targeting."
+        }
+      ]
+    },
+    {
+      "name": "Giant",
+      "elixir": 5,
+      "rarity": "rare",
+      "description": {
+        "strength": "Building-targeting tank with high HP for a moderate cost. Forms the core of 'Giant Beatdown' decks. Consistent and simple win condition that forces a response.",
+        "weakness": "Only targets buildings. Low DPS. Easily distracted and slowed down by defensive buildings or high-DPS defensive troops (Mini P.E.K.K.A, Inferno Dragon).",
+        "popularity": "High, a consistent and reliable tank win condition across many archetypes."
+      },
+      "related_cards": [
+        {
+          "name": "Mini P.E.K.K.A",
+          "relation": "Direct Counter",
+          "reason": "Mini P.E.K.K.A is the premier 'tank killer,' quickly chewing through the Giant's HP for a neutral elixir trade."
+        },
+        {
+          "name": "Witch",
+          "relation": "Synergy",
+          "reason": "A classic pairing in Giant decks, where the Giant tanks while the Witch's spawn-skeletons and splash damage support the push."
+        },
+        {
+          "name": "Golem",
+          "relation": "Functional Alternative",
+          "reason": "Higher-cost, higher-HP ultimate tank with an even stronger death-split mechanic, used in heavier beatdown decks."
+        }
+      ]
+    },
+    {
+      "name": "Valkyrie",
+      "elixir": 4,
+      "rarity": "rare",
+      "description": {
+        "strength": "Medium-HP troop with a 360-degree area-of-effect (AoE) melee attack. The best ground counter to all ground swarms (Skeleton Army, Goblin Gang, Barbarians, Rascals).",
+        "weakness": "Cannot attack air troops. Easily distracted by building-targeting troops. Vulnerable to flying units and single-target high-DPS cards (Mini P.E.K.K.A).",
+        "popularity": "High, a top-tier defensive card for her anti-swarm capability, often used in many mid-cost control and beatdown decks."
+      },
+      "related_cards": [
+        {
+          "name": "Barbarians",
+          "relation": "Direct Counter",
+          "reason": "She efficiently clears the 5-elixir Barbarians for a strong positive elixir trade (+1) due to her 360-degree splash."
+        },
+        {
+          "name": "Bowler",
+          "relation": "Functional Alternative",
+          "reason": "Higher-cost ground splash unit that offers knockback/push utility instead of the Valkyrie's mobility and 360-degree attack."
+        },
+        {
+          "name": "Minions",
+          "relation": "Direct Counter",
+          "reason": "Air units like Minions easily and cheaply counter the ground-only Valkyrie, neutralizing her ground threat."
+        }
+      ]
+    },
+    {
+      "name": "Musketeer",
+      "elixir": 4,
+      "rarity": "rare",
+      "description": {
+        "strength": "Long-range, single-target troop that targets both air and ground. High DPS and long range make her a premier air defense and backline support unit, often placed at the bridge.",
+        "weakness": "Medium HP, vulnerable to Fireball or Lightning. Slow attack speed and easily distracted by cheap units (Skeletons, Goblins) placed in her lane.",
+        "popularity": "High, a consistent and reliable defensive/offensive support unit in a wide variety of decks, especially Hog Cycle and beatdown."
+      },
+      "related_cards": [
+        {
+          "name": "Fireball",
+          "relation": "Direct Counter",
+          "reason": "The most common and effective counter, eliminating the Musketeer for a neutral elixir trade (or positive if damaging the tower/other troops)."
+        },
+        {
+          "name": "Hunter",
+          "relation": "Functional Alternative",
+          "reason": "Similar 4-elixir cost, but is a close-range, high-splash, high-damage unit instead of the Musketeer's long-range single-target focus."
+        },
+        {
+          "name": "Knight",
+          "relation": "Synergy",
+          "reason": "The classic defensive duo in Hog Cycle (Knight tanks ground, Musketeer provides ranged air/ground defense)."
+        }
+      ]
+    },
+    {
+      "name": "Wizard",
+      "elixir": 5,
+      "rarity": "rare",
+      "description": {
+        "strength": "Ranged, high-damage area-of-effect (AoE) troop that targets both air and ground. Excellent for instantly clearing most swarms (Minion Horde, Barbarians) and providing high splash damage behind a tank.",
+        "weakness": "Very high elixir cost and low HP, making him extremely vulnerable to Lightning, Rocket, or P.E.K.K.A. Slow movement.",
+        "popularity": "Low to moderate at top ladder due to the high cost and ease of being countered for a positive trade, but popular in mid-ladder as a clear-all defense."
+      },
+      "related_cards": [
+        {
+          "name": "Lightning",
+          "relation": "Direct Counter",
+          "reason": "A high-risk, high-reward counter that can kill the Wizard and simultaneously damage the tower or other supports for a large positive trade."
+        },
+        {
+          "name": "Baby Dragon",
+          "relation": "Functional Alternative",
+          "reason": "Cheaper 4-elixir flying splash unit that is tankier and can be used on both offense and defense more reliably."
+        },
+        {
+          "name": "Firecracker",
+          "relation": "Functional Alternative",
+          "reason": "Cheaper 3-elixir ranged splash unit with unique movement utility, used in faster cycle decks."
+        }
+      ]
+    },
+    {
+      "name": "Mini P.E.K.K.A",
+      "elixir": 4,
+      "rarity": "rare",
+      "description": {
+        "strength": "Very high single-target DPS. Excellent 'tank killer,' quickly destroying Giants, Golems, and Hog Riders. Strong counter-push potential if paired with a small tank.",
+        "weakness": "Cannot attack air. Easily distracted and completely shut down by cheap ground swarms (Skeletons, Goblin Gang).",
+        "popularity": "Moderate, a solid option for tank-heavy metas, especially as a defensive unit against win conditions like Hog Rider and Royal Giant."
+      },
+      "related_cards": [
+        {
+          "name": "Skeletons",
+          "relation": "Direct Counter",
+          "reason": "The cheapest and most effective hard counter, distracting the Mini P.E.K.K.A for a +3 elixir trade and negating its damage."
+        },
+        {
+          "name": "P.E.K.K.A",
+          "relation": "Functional Alternative",
+          "reason": "Higher-cost, ultimate single-target killer with immense HP and damage, used in heavier beatdown/control decks."
+        },
+        {
+          "name": "Giant",
+          "relation": "Direct Counter",
+          "reason": "A primary tank that Mini P.E.K.K.A is designed to counter, giving a neutral elixir trade."
+        }
+      ]
+    },
+    {
+      "name": "Hog Rider",
+      "elixir": 4,
+      "rarity": "rare",
+      "description": {
+        "strength": "Fast-moving, building-targeting Win Condition. Forces an immediate defensive response due to its speed and high tower-damage potential. Core of 'Hog Cycle' decks.",
+        "weakness": "Only targets buildings. Easily distracted by defensive buildings (Cannon, Tesla, Inferno Tower) or slowed/pushed back by spells/units (Tornado, Giant Snowball).",
+        "popularity": "Very high, one of the most popular and consistent win conditions in the game, especially in fast cycle and control archetypes."
+      },
+      "related_cards": [
+        {
+          "name": "Tesla",
+          "relation": "Direct Counter",
+          "reason": "The most versatile and common defensive building to stop the Hog Rider, often leading to a neutral or positive elixir trade."
+        },
+        {
+          "name": "Knight",
+          "relation": "Synergy",
+          "reason": "A core card in the classic 'Hog 2.6' cycle deck, used for cheap, fast cycle and ground defense."
+        },
+        {
+          "name": "Earthquake",
+          "relation": "Synergy/Counter",
+          "reason": "Often used to destroy the opponent's defensive building (like Cannon/Tesla) that counters the Hog, clearing the way for a successful hit."
+        }
+      ]
+    },
+    {
+      "name": "Three Musketeers",
+      "elixir": 9,
+      "rarity": "rare",
+      "description": {
+        "strength": "Three long-range, high-DPS units that target both air and ground. Can be split into two lanes to create extreme pressure, forcing the opponent to defend both sides simultaneously.",
+        "weakness": "Highest elixir cost in the game. Extremely vulnerable to high-damage spells like Lightning, Rocket, or Fireball, which can result in a devastating negative elixir trade.",
+        "popularity": "Low to moderate, a high-risk, high-reward card used in specific '3M' decks that rely on Elixir Collector or tanking to ensure their survival."
+      },
+      "related_cards": [
+        {
+          "name": "Lightning",
+          "relation": "Direct Counter",
+          "reason": "The highest-damage spell, capable of eliminating two of the Three Musketeers and damaging the tower for a massive positive elixir trade."
+        },
+        {
+          "name": "Elixir Collector",
+          "relation": "Synergy",
+          "reason": "Essential for '3M' decks, allowing the player to reach the necessary elixir advantage to play the card safely."
+        },
+        {
+          "name": "Musketeer",
+          "relation": "Card Origin",
+          "reason": "The Three Musketeers are simply three separate Musketeers, sharing the same stats and abilities."
+        }
+      ]
+    },
+    {
+      "name": "Battle Ram",
+      "elixir": 4,
+      "rarity": "rare",
+      "description": {
+        "strength": "Building-targeting win condition that charges to the nearest building, dealing high damage on impact. After impact, two Barbarians spawn, creating a continued threat.",
+        "weakness": "Only targets buildings. The charge is reset by any damage/stun (Zap, Ice Spirit, Electro Spirit) or buildings placed in its path. Vulnerable to splash units.",
+        "popularity": "Moderate, a core win condition in 'Bridge Spam' decks, known for fast, aggressive pushes."
+      },
+      "related_cards": [
+        {
+          "name": "Electro Spirit",
+          "relation": "Direct Counter",
+          "reason": "A single Electro Spirit can reset the charge, significantly reducing its damage and giving the tower time to kill the ensuing Barbarians."
+        },
+        {
+          "name": "Elite Barbarians",
+          "relation": "Synergy",
+          "reason": "Often paired with Elite Barbarians for a fast, overwhelming 'Bridge Spam' push that forces a heavy defense commitment."
+        },
+        {
+          "name": "Hog Rider",
+          "relation": "Functional Alternative",
+          "reason": "Another 4-elixir, fast, building-targeting win condition, but the Hog is more reliable while the Ram is more volatile and powerful on a successful charge."
+        }
+      ]
+    },
+    {
+      "name": "Ice Golem",
+      "elixir": 2,
+      "rarity": "rare",
+      "description": {
+        "strength": "Low-cost, building-targeting mini-tank. Its death nova applies a slow effect to all nearby units (air and ground). Excellent for kiting and distracting ground units for a high positive elixir trade.",
+        "weakness": "Very low DPS. Only targets buildings, making it purely a defensive/utility tank.",
+        "popularity": "High, a staple in many cycle and control decks for its kiting ability, cheap tanking, and death-slow utility."
+      },
+      "related_cards": [
+        {
+          "name": "Hog Rider",
+          "relation": "Synergy",
+          "reason": "The Ice Golem is the preferred mini-tank in Hog Cycle, tanking and kiting threats for the Hog, often with a 'pig push' to bypass buildings."
+        },
+        {
+          "name": "Knight",
+          "relation": "Functional Alternative",
+          "reason": "Higher-cost mini-tank that offers better DPS and tanking, but lacks the Ice Golem's death slow and kiting utility."
+        },
+        {
+          "name": "Giant Snowball",
+          "relation": "Synergy/Alternative",
+          "reason": "Both cards apply a slow effect, often used in the same decks to maximize control and kiting."
+        }
+      ]
+    },
+    {
+      "name": "Mega Minion",
+      "elixir": 3,
+      "rarity": "rare",
+      "description": {
+        "strength": "Flying single-target troop with very high HP and single-target DPS. Excellent air-targeting defense that resists Fireball and can quickly melt tanks (Giant, P.E.K.K.A, Lava Hound).",
+        "weakness": "Slow attack speed. Cannot clear swarms. Easily distracted by cheap air units (Bats) or buildings.",
+        "popularity": "Moderate to high, a consistent defensive choice in beatdown and control decks for its tank-killing power and resistance to medium spells."
+      },
+      "related_cards": [
+        {
+          "name": "Bats",
+          "relation": "Direct Counter",
+          "reason": "The cheap Bats can easily distract the single-target Mega Minion and overwhelm it with a swarm for a positive elixir trade."
+        },
+        {
+          "name": "Minions",
+          "relation": "Functional Alternative",
+          "reason": "Same cost, but offers lower HP and more units for swarm defense, sacrificing the Mega Minion's spell resistance and tank-killing power."
+        },
+        {
+          "name": "Fireball",
+          "relation": "Spell Resistance",
+          "reason": "Its high HP allows it to survive a Fireball, making it a powerful and consistent counter-push unit."
+        }
+      ]
+    },
+    {
+      "name": "Dart Goblin",
+      "elixir": 3,
+      "rarity": "rare",
+      "description": {
+        "strength": "Very long-range, fast-attacking troop that targets both air and ground. High DPS if left alone and excellent 'Log Bait' unit due to its cheap cost and range.",
+        "weakness": "Very low HP (dies to Zap/The Log/Snowball). Easily distracted. The long range means he can be pulled by defense buildings to the other lane.",
+        "popularity": "High, a core card in 'Log Bait' and cycle decks for its long-range pressure and spell bait potential."
+      },
+      "related_cards": [
+        {
+          "name": "The Log",
+          "relation": "Direct Counter/Bait",
+          "reason": "The most common small spell used to kill the Dart Goblin for a neutral elixir trade, making it a critical 'Log Bait' card."
+        },
+        {
+          "name": "Princess",
+          "relation": "Functional Alternative",
+          "reason": "Higher-cost Legendary card with even longer range, greater splash damage, and a powerful tower-chip threat, also a 'Log Bait' card."
+        },
+        {
+          "name": "Musketeer",
+          "relation": "Functional Alternative",
+          "reason": "Higher-HP, slower-attacking ranged unit with less cycle potential but more survivability and consistent damage."
+        }
+      ]
+    },
+    {
+      "name": "Zappies",
+      "elixir": 4,
+      "rarity": "rare",
+      "description": {
+        "strength": "Three individual units, each firing a short-duration stun. Effective at permanently stunning single-target units (P.E.K.K.A, Mini P.E.K.K.A) and slowing down pushes. Can be split.",
+        "weakness": "Low HP, each unit dies to Fireball/Poison/Lightning. Easily killed by splash damage (Valkyrie, Wizard). Low damage output.",
+        "popularity": "Low to moderate, a niche defensive unit for specific 'Zappies' control decks that rely on their permanent stun potential."
+      },
+      "related_cards": [
+        {
+          "name": "Fireball",
+          "relation": "Direct Counter",
+          "reason": "Easily kills the low-HP Zappies for a neutral elixir trade, eliminating the stun threat."
+        },
+        {
+          "name": "Electro Wizard",
+          "relation": "Functional Alternative",
+          "reason": "A single 4-elixir unit with a spawn stun and consistent double-target stun, offering similar control utility."
+        },
+        {
+          "name": "P.E.K.K.A",
+          "relation": "Direct Counter",
+          "reason": "They are a highly effective counter to P.E.K.K.A, as their multiple stuns can permanently hold her in place."
+        }
+      ]
+    },
+    {
+      "name": "Flying Machine",
+      "elixir": 4,
+      "rarity": "rare",
+      "description": {
+        "strength": "Flying, long-range, single-target troop. Excellent 'sniping' support unit that attacks safely from behind tanks or over the river. Targets both air and ground.",
+        "weakness": "Medium HP, making it vulnerable to Fireball or Lightning. Can be easily distracted by air units.",
+        "popularity": "Moderate, a consistent choice for long-range, hard-hitting air support in beatdown or bridge-spam decks."
+      },
+      "related_cards": [
+        {
+          "name": "Musketeer",
+          "relation": "Functional Alternative",
+          "reason": "4-elixir long-range single-target support, but is ground-bound, making it more vulnerable to ground-only threats."
+        },
+        {
+          "name": "Three Musketeers",
+          "relation": "Synergy",
+          "reason": "Often used in 'Bridge Spam' decks with Battle Ram/Miner for long-range, quick, aerial support that resists ground swarms."
+        },
+        {
+          "name": "Fireball",
+          "relation": "Direct Counter",
+          "reason": "The most common spell used to eliminate the medium-HP Flying Machine for a neutral elixir trade."
+        }
+      ]
+    },
+    {
+      "name": "Royal Hogs",
+      "elixir": 5,
+      "rarity": "rare",
+      "description": {
+        "strength": "Four building-targeting hogs that deploy across both lanes (2 on each). Excellent split-lane pressure win condition, forcing the opponent to commit elixir to both sides.",
+        "weakness": "Only targets buildings. Very vulnerable to ground splash (Valkyrie, Bowler) and swarm defense. High elixir cost.",
+        "popularity": "High, a core win condition in 'Royal Hogs Cycle' and control decks that utilize their split-push power."
+      },
+      "related_cards": [
+        {
+          "name": "Valkyrie",
+          "relation": "Direct Counter",
+          "reason": "Her 360-degree splash quickly and efficiently clears the Royal Hogs for a positive elixir trade."
+        },
+        {
+          "name": "Royal Recruits",
+          "relation": "Synergy",
+          "reason": "Often used together in decks that focus on maximum split-lane pressure and overwhelm the opponent's defense."
+        },
+        {
+          "name": "Hog Rider",
+          "relation": "Functional Alternative",
+          "reason": "Cheaper 4-elixir win condition that focuses on a single, fast push rather than split-lane pressure."
+        }
+      ]
+    },
+    {
+      "name": "Elixir Golem",
+      "elixir": 3,
+      "rarity": "rare",
+      "description": {
+        "strength": "Building-targeting tank that splits into two 'Elixir Golemites' and then four 'Blobs.' The cheapest and fastest-cycling tank in the game. Incredible speed and HP for its cost.",
+        "weakness": "Upon death, it gives the opponent 4 elixir (total cost is 7 Elixir for its health, but you gain 3 back, so the net cost is 3). Can be a massive downside if the push fails.",
+        "popularity": "High, the primary win condition in 'Elixir Golem Beatdown' decks, relying on overwhelming the opponent with cheap tanks and aggressive support."
+      },
+      "related_cards": [
+        {
+          "name": "Battle Healer",
+          "relation": "Synergy",
+          "reason": "The essential support unit in Elixir Golem decks, as her healing capability perfectly sustains the multi-stage Golem push."
+        },
+        {
+          "name": "P.E.K.K.A",
+          "relation": "Direct Counter",
+          "reason": "P.E.K.K.A is the best unit for punishing Elixir Golem decks, as she quickly kills the Golem/Golemites and provides a massive counter-push."
+        },
+        {
+          "name": "Giant",
+          "relation": "Functional Alternative",
+          "reason": "Higher-cost, lower-risk tank that does not gift the opponent any elixir upon death."
+        }
+      ]
+    },
+    {
+      "name": "Battle Healer",
+      "elixir": 4,
+      "rarity": "rare",
+      "description": {
+        "strength": "Ground troop that heals nearby friendly units and herself with every attack. She is an exceptionally powerful support unit in large pushes, capable of tanking and sustaining a push indefinitely if not dealt with.",
+        "weakness": "Low individual DPS. Cannot attack air. Easily distracted by cheap units or defensive buildings.",
+        "popularity": "Moderate, a core defensive/offensive support in 'Elixir Golem' and other beatdown decks that rely on sustained pushes."
+      },
+      "related_cards": [
+        {
+          "name": "Elixir Golem",
+          "relation": "Synergy",
+          "reason": "The essential pairing, as her healing sustains the Golem's multiple forms and allows the player to build up a large, unkillable push."
+        },
+        {
+          "name": "Fireball",
+          "relation": "Direct Counter",
+          "reason": "A well-timed Fireball can quickly eliminate the low-HP Battle Healer, stopping the healing and neutralizing the push."
+        },
+        {
+          "name": "Valkyrie",
+          "relation": "Functional Alternative",
+          "reason": "Similar HP/cost ground troop, but sacrifices the healing utility for superior anti-swarm splash damage."
+        }
+      ]
+    },
+    {
+      "name": "Goblin Demolisher",
+      "elixir": 4,
+      "rarity": "rare",
+      "description": {
+        "strength": "Long-range unit that throws heavy, high-damage bombs that deal great splash damage. Very effective against ground swarms and siege units. Can attack from a safe distance.",
+        "weakness": "Slow attack speed and cannot attack air troops. Vulnerable to flying units and fast-moving units that bypass his splash.",
+        "popularity": "Low, a niche ground splash unit."
+      },
+      "related_cards": [
+        {
+          "name": "Bomber",
+          "relation": "Functional Alternative",
+          "reason": "Cheaper 2-elixir ground splash unit with less HP and range, used in faster cycle decks."
+        },
+        {
+          "name": "Executioner",
+          "relation": "Functional Alternative",
+          "reason": "Higher-cost, air/ground splash troop with a return-axe mechanic and higher HP, used for reliable, high-damage defense."
+        },
+        {
+          "name": "Minions",
+          "relation": "Direct Counter",
+          "reason": "Any air unit easily and cheaply counters the ground-only Goblin Demolisher for a strong positive elixir trade."
+        }
+      ]
+    },
+    {
+      "name": "Suspicious Bush",
+      "elixir": 2,
+      "rarity": "rare",
+      "description": {
+        "strength": "Low-cost utility card. Creates a temporary camouflaged bush on the map, allowing ground troops placed inside to become invisible until they attack or the bush expires. Excellent for protecting offensive cards or surprise defense.",
+        "weakness": "Only affects ground troops. The opponent can still guess the location or damage the area with spells. The bush expires quickly.",
+        "popularity": "Low, a highly niche card used for specific surprise attacks or protecting key troops like a Miner or Graveyard placement."
+      },
+      "related_cards": [
+        {
+          "name": "Miner",
+          "relation": "Synergy",
+          "reason": "Often used to provide temporary cover for the Miner after he emerges, allowing him to bypass defensive troops placed late."
+        },
+        {
+          "name": "Rage",
+          "relation": "Functional Alternative",
+          "reason": "Another 2-elixir utility spell, but provides speed/damage boost instead of camouflage/invisibility."
+        },
+        {
+          "name": "Fireball",
+          "relation": "Direct Counter",
+          "reason": "The opponent can simply use a spell like Fireball or The Log on the bush to damage or eliminate the invisible troop inside."
+        }
+      ]
+    },
+    {
+      "name": "Goblin Hut",
+      "elixir": 4,
+      "rarity": "rare",
+      "description": {
+        "strength": "Spawning building that passively generates Spear Goblins. Constant, persistent, and low-cost lane pressure. Excellent distraction for air and ground win conditions.",
+        "weakness": "Vulnerable to spells (Fireball, Rocket, Poison, Earthquake). Can't stop heavy, direct pushes immediately. Its spawned troops are fragile.",
+        "popularity": "Moderate, a core card in 'Spam' or 'Hut' decks that rely on overwhelming the opponent with multiple spawned units."
+      },
+      "related_cards": [
+        {
+          "name": "Earthquake",
+          "relation": "Direct Counter",
+          "reason": "The most effective building-killing spell, as it deals high damage to the Hut and slows down the spawned Goblins/towers."
+        },
+        {
+          "name": "Tombstone",
+          "relation": "Functional Alternative",
+          "reason": "Cheaper 3-elixir spawning building that generates ground-only Skeletons, used for cheap ground distraction."
+        },
+        {
+          "name": "Barbarian Hut",
+          "relation": "Functional Alternative",
+          "reason": "Higher-cost 6-elixir spawning building that generates high-HP Barbarians for heavier lane pressure."
+        }
+      ]
+    },
+    {
+      "name": "Inferno Tower",
+      "elixir": 5,
+      "rarity": "rare",
+      "description": {
+        "strength": "Defensive building that targets both air and ground. Has a ramping-up damage beam, making it the premier counter to all high-HP tanks (Giant, Golem, Mega Knight, Lava Hound).",
+        "weakness": "Easily reset by stun effects (Zap, Electro Spirit, Electro Wizard) or high-DPS swarms that distract it. High elixir cost.",
+        "popularity": "High, a fundamental defensive building in many control and anti-beatdown decks for its tank-killing capability."
+      },
+      "related_cards": [
+        {
+          "name": "Golem",
+          "relation": "Direct Counter",
+          "reason": "The primary ultimate tank that Inferno Tower is designed to counter due to its rapidly increasing damage beam."
+        },
+        {
+          "name": "Electro Spirit",
+          "relation": "Direct Counter",
+          "reason": "A cheap 1-elixir card that can reset the Inferno Tower's beam, saving a tank from destruction."
+        },
+        {
+          "name": "Tesla",
+          "relation": "Functional Alternative",
+          "reason": "Cheaper 4-elixir building that sacrifices the ramping tank-killing damage for spell immunity and better utility against medium-HP troops."
+        }
+      ]
+    },
+    {
+      "name": "Bomb Tower",
+      "elixir": 4,
+      "rarity": "rare",
+      "description": {
+        "strength": "Defensive building that attacks ground units with an area-of-effect (AoE) bomb. The best pure ground-swarm defense building, with high HP and a final death bomb.",
+        "weakness": "Cannot attack air troops. Easily taken out by air units (Minions, Balloon).",
+        "popularity": "Moderate, a niche choice in metas where ground swarms (Goblin Gang, Barbarians) or Royal Hogs are highly prevalent."
+      },
+      "related_cards": [
+        {
+          "name": "Royal Hogs",
+          "relation": "Direct Counter",
+          "reason": "The high HP and splash damage of the Bomb Tower make it an excellent counter to the Royal Hogs' ground swarm push."
+        },
+        {
+          "name": "Minions",
+          "relation": "Direct Counter",
+          "reason": "Any air unit like Minions easily and cheaply destroys the ground-only Bomb Tower for a strong positive elixir trade."
+        },
+        {
+          "name": "Tesla",
+          "relation": "Functional Alternative",
+          "reason": "Same cost, but sacrifices the splash damage for anti-air capability and spell immunity."
+        }
+      ]
+    },
+    {
+      "name": "Barbarian Hut",
+      "elixir": 6,
+      "rarity": "rare",
+      "description": {
+        "strength": "Spawning building that passively generates Barbarians. Creates extreme, heavy, and persistent lane pressure. Excellent high-HP defensive building that also provides strong counter-push material.",
+        "weakness": "Very high elixir cost. Vulnerable to spells (Poison, Rocket, Lightning, Earthquake) and immediate direct pushes.",
+        "popularity": "Low, a high-cost card generally seen in specific 'Hut Spam' or heavy beatdown decks."
+      },
+      "related_cards": [
+        {
+          "name": "Goblin Hut",
+          "relation": "Functional Alternative",
+          "reason": "Cheaper 4-elixir spawning building that generates air-targeting Spear Goblins for faster cycle and less commitment."
+        },
+        {
+          "name": "Rocket",
+          "relation": "Direct Counter",
+          "reason": "A high-damage spell that can eliminate the Barbarian Hut while damaging the tower, providing a net-neutral or positive trade."
+        },
+        {
+          "name": "Royal Recruits",
+          "relation": "Functional Alternative",
+          "reason": "Same cost, but deploys a large, immediate swarm instead of passive spawning, offering split-lane pressure."
+        }
+      ]
+    },
+    {
+      "name": "Elixir Collector",
+      "elixir": 6,
+      "rarity": "rare",
+      "description": {
+        "strength": "Building that passively generates an additional elixir every 8.5 seconds (total of 8 elixir over its lifespan). Essential for high-cost decks, allowing them to out-elixir the opponent and build up massive pushes.",
+        "weakness": "High initial elixir cost, creating a temporary -6 elixir deficit. Vulnerable to heavy spells (Rocket, Lightning, Fireball) and Miner/Goblin Drill/Goblin Barrel attacks.",
+        "popularity": "Moderate, a core card in some heavy beatdown (Golem, 3M) and control decks."
+      },
+      "related_cards": [
+        {
+          "name": "Rocket",
+          "relation": "Direct Counter",
+          "reason": "The ultimate punishment for Elixir Collector, as it instantly destroys the building and severely damages the tower for a profitable trade."
+        },
+        {
+          "name": "Three Musketeers",
+          "relation": "Synergy",
+          "reason": "A necessary pairing for Three Musketeers decks to safely cycle into and defend against the high-cost play."
+        },
+        {
+          "name": "Goblin Drill",
+          "relation": "Direct Counter",
+          "reason": "Can be placed directly on the Collector to deal damage and distract it, preventing it from generating its full elixir value."
+        }
+      ]
+    },
+    {
+      "name": "Tombstone",
+      "elixir": 3,
+      "rarity": "rare",
+      "description": {
+        "strength": "Spawning building that passively generates Skeletons. Excellent cheap distraction for ground-only win conditions (Hog Rider, P.E.K.K.A). Upon death, four Skeletons spawn, adding to the distraction",
+        "weakness": "Cannot attack air troops. Easily destroyed by air units (Minions, Balloon).",
+        "popularity": "High, a staple in many cycle and control decks for its cheap distraction and ability to generate positive elixir trades."
+      },
+      "related_cards": [
+        {
+          "name": "Hog Rider",
+          "relation": "Direct Counter",
+          "reason": "The most common ground win condition Tombstone is used to counter, providing a defensive distraction for a neutral elixir trade."
+        },
+        {
+          "name": "Goblin Hut",
+          "relation": "Functional Alternative",
+          "reason": "Higher-cost 4-elixir spawning building that generates air/ground targeting Spear Goblins for persistent lane pressure."
+        },
+        {
+          "name": "Poison",
+          "relation": "Direct Counter",
+          "reason": "The Poison spell deals damage over time, effectively killing the Tombstone and all its spawned Skeletons."
+        }
+      ]
+    },
+    {
+      "name": "Furnace",
+      "elixir": 4,
+      "rarity": "rare",
+      "description": {
+        "strength": "Spawning building that generates two Fire Spirits every 10 seconds. Provides constant, low-level chip damage to the tower and is highly effective at clearing low-HP swarms (Skeletons, Goblins) and Bats on defense.",
+        "weakness": "Has a short lifetime and is easily taken down by heavy spells like Rocket. Fire Spirits are only effective against low-HP troops and cannot fully stop a push.",
+        "popularity": "Moderate, used in decks that focus on passive offense and cycling. Especially potent when one level higher than the opponent's tower, ensuring Fire Spirits reach the tower."
+      },
+      "related_cards": [
+        {
+          "name": "Fire Spirit",
+          "relation": "Component",
+          "reason": "The Furnace's primary function is to spawn these short-ranged, area-damage troops."
+        },
+        {
+          "name": "Earthquake",
+          "relation": "Direct Counter",
+          "reason": "Effectively destroys the Furnace while damaging the tower, leading to a strong positive elixir trade and eliminating the pressure."
+        },
+        {
+          "name": "Goblin Hut",
+          "relation": "Functional Alternative",
+          "reason": "A higher-cost spawning building that generates Spear Goblins for a different type of pressure."
+        }
+      ]
+    },
+    {
+      "name": "Goblin Cage",
+      "elixir": 4,
+      "rarity": "rare",
+      "description": {
+        "strength": "Defensive building that pulls enemy troops, functioning as an excellent tank and Hog Rider counter. Upon destruction, it releases a fast, high-damage Goblin Brawler troop that can launch a counter-attack.",
+        "weakness": "The building phase has no attack. The Goblin Brawler can be easily countered by air units or swarms after the cage is destroyed.",
+        "popularity": "High, a versatile defensive option that transitions well into offense and is a staple in many control and cycle decks."
+      },
+      "related_cards": [
+        {
+          "name": "Tombstone",
+          "relation": "Functional Alternative",
+          "reason": "A cheaper 3-elixir defensive building that spawns Skeletons, offering less counter-attack potential but better elixir value."
+        },
+        {
+          "name": "Mini P.E.K.K.A",
+          "relation": "Functional Alternative",
+          "reason": "Similar role as a fast, high-damage ground threat, but the Goblin Cage provides the building distraction phase first."
+        },
+        {
+          "name": "Hog Rider",
+          "relation": "Direct Counter",
+          "reason": "The Goblin Cage is specifically designed to distract and absorb the Hog Rider's attacks, leading to a strong counter-push."
+        }
+      ]
+    },
+    {
+      "name": "Heal Spirit",
+      "elixir": 1,
+      "rarity": "rare",
+      "description": {
+        "strength": "The cheapest troop in the game. Jumps to troops or buildings to release a powerful, short-duration healing pulse. Excellent for keeping a Mini-Tank or offensive troop alive through a spell or a defensive exchange.",
+        "weakness": "Only heals, dealing no damage. Very low HP, easily killed by a single shot from the princess tower or any splash troop. A small spell (Zap, Snowball) can kill it without letting it heal.",
+        "popularity": "Moderate to High, often used in cycle decks for its low cost and the powerful clutch healing it provides to troops like Hog Rider or Battle Ram."
+      },
+      "related_cards": [
+        {
+          "name": "Electro Spirit",
+          "relation": "Functional Alternative",
+          "reason": "A 1-elixir spirit focused on damage and chain-stunning instead of healing."
+        },
+        {
+          "name": "Zap",
+          "relation": "Direct Counter",
+          "reason": "For two elixir, the Zap spell can instantly kill the Heal Spirit, preventing its ability from activating and often leading to a negative trade."
+        },
+        {
+          "name": "Hog Rider",
+          "relation": "Synergy",
+          "reason": "A classic pairing to keep the Hog Rider alive longer, often allowing it to get one or two extra hits on the tower."
+        }
+      ]
+    },
+    {
+      "name": "Prince",
+      "elixir": 5,
+      "rarity": "epic",
+      "description": {
+        "strength": "High-HP troop with massive single-target damage, especially after charging. Excellent at eliminating enemy tanks and supporting troops (like Witch or Wizard) with a single, devastating charge hit.",
+        "weakness": "Only targets ground units. His charge is easily stopped by any cheap troop (Skeletons, Goblins) placed in its path, resetting his damage.",
+        "popularity": "Moderate, used in midrange and bridge-spam decks. Effective when paired with a splash-damage unit to clear swarms that would otherwise distract him."
+      },
+      "related_cards": [
+        {
+          "name": "Dark Prince",
+          "relation": "Synergy",
+          "reason": "Often paired with the Prince to form 'Double Prince', with the Dark Prince clearing swarms and the Prince handling single-target threats."
+        },
+        {
+          "name": "P.E.K.K.A",
+          "relation": "Functional Alternative",
+          "reason": "A higher-cost single-target tank killer, but without the charge mechanic."
+        },
+        {
+          "name": "Skeleton Army",
+          "relation": "Direct Counter",
+          "reason": "The cheapest way to surround and stop the Prince's charge for a strong positive elixir trade (+2). Will quickly take him down due to high swarm DPS."
+        }
+      ]
+    },
+    {
+      "name": "Giant Skeleton",
+      "elixir": 6,
+      "rarity": "epic",
+      "description": {
+        "strength": "High-HP tank whose primary value comes from his massive death bomb. Perfect for defense, as any attacking troops are almost guaranteed to be destroyed by the bomb.",
+        "weakness": "Low attack damage and very slow movement. The bomb can be avoided by air units or if the Giant Skeleton is kited far enough from the tower/attacking troops.",
+        "popularity": "Low to Moderate, mainly used in defensive-oriented decks or specific bridgespam decks that rely on the bomb to punish a heavy defense."
+      },
+      "related_cards": [
+        {
+          "name": "Golem",
+          "relation": "Functional Alternative",
+          "reason": "Higher-cost primary tank that splits into two Golemites, offering better offensive tanking but a weaker death explosion."
+        },
+        {
+          "name": "Fisherman",
+          "relation": "Synergy",
+          "reason": "Can pull enemy troops directly onto the Giant Skeleton's death bomb location for guaranteed destruction."
+        },
+        {
+          "name": "Valkyrie",
+          "relation": "Direct Counter",
+          "reason": "A cheaper unit that can quickly take down the Giant Skeleton and survive the death bomb, providing a positive elixir trade."
+        }
+      ]
+    },
+    {
+      "name": "Guards",
+      "elixir": 3,
+      "rarity": "epic",
+      "description": {
+        "strength": "Three Skeletons equipped with shields, making them resistant to one instance of damage (e.g., Prince charge, Sparky shot, Rocket). Excellent defensive unit for stopping single-hit attackers and forcing a negative trade from spells.",
+        "weakness": "Low damage and low HP once the shields are broken. Easily defeated by splash-damage troops like Valkyrie or Bomber.",
+        "popularity": "Moderate to High, a versatile defensive utility card that is a staple in decks that need a reliable, spell-resistant counter for high-damage ground threats."
+      },
+      "related_cards": [
+        {
+          "name": "Skeleton Army",
+          "relation": "Functional Alternative",
+          "reason": "Much higher damage for the same cost but completely vulnerable to Zap or other small spells."
+        },
+        {
+          "name": "Dark Prince",
+          "relation": "Synergy",
+          "reason": "Often used together on defense against a large push, as both have shields to absorb initial damage."
+        },
+        {
+          "name": "Valkyrie",
+          "relation": "Direct Counter",
+          "reason": "The Valkyrie's 360-degree splash damage quickly destroys both the shields and the underlying Skeletons."
+        }
+      ]
+    },
+    {
+      "name": "Dark Prince",
+      "elixir": 4,
+      "rarity": "epic",
+      "description": {
+        "strength": "Fast, splash-damage troop with a shield that negates the first instance of damage. His charge attack deals double damage and is highly effective at clearing ground swarms (Goblins, Skeleton Army) and damaging the tower.",
+        "weakness": "Low single-target damage, making him poor against tanks and high-HP troops. The shield is easily broken by any form of damage.",
+        "popularity": "High, a core component of 'Bridge Spam' and 'Double Prince' decks due to his speed, splash, and shield utility."
+      },
+      "related_cards": [
+        {
+          "name": "Valkyrie",
+          "relation": "Functional Alternative",
+          "reason": "The premier ground splash-damage unit, but the Dark Prince has the shield and the charge ability for more aggressive pushes."
+        },
+        {
+          "name": "Prince",
+          "relation": "Synergy",
+          "reason": "The classic 'Double Prince' combo. Dark Prince clears swarms, allowing the Prince to land his high-damage charge on the tower."
+        },
+        {
+          "name": "P.E.K.K.A",
+          "relation": "Synergy",
+          "reason": "The Dark Prince is often used with P.E.K.K.A to protect her from ground swarms that would otherwise distract her."
+        }
+      ]
+    },
+    {
+      "name": "Cannon Cart",
+      "elixir": 5,
+      "rarity": "epic",
+      "description": {
+        "strength": "Ranged, single-target unit with high damage and a moderate shield/HP. Once the shield is broken, it becomes a stationary defensive building, providing continued, long-range fire support.",
+        "weakness": "High elixir cost and slow movement. The building form is vulnerable to air attacks, and its damage is single-target, making it poor against swarms.",
+        "popularity": "Moderate, used in slower, heavier control and siege-like decks where its dual troop/building role provides excellent value and defensive flexibility."
+      },
+      "related_cards": [
+        {
+          "name": "Tesla",
+          "relation": "Functional Alternative",
+          "reason": "A cheaper 4-elixir defensive building that hides underground, offering better defense against tanks, but lacking the troop phase."
+        },
+        {
+          "name": "Hunter",
+          "relation": "Functional Alternative",
+          "reason": "Similar single-target high-damage, but the Hunter is a troop with very short-range spread damage."
+        },
+        {
+          "name": "Lightning",
+          "relation": "Direct Counter",
+          "reason": "The spell can hit both the Cannon Cart and the tower, or other nearby troops, dealing massive damage and often removing the cart's shield entirely."
+        }
+      ]
+    },
+    {
+      "name": "Wall Breakers",
+      "elixir": 2,
+      "rarity": "epic",
+      "description": {
+        "strength": "Two fast, building-targeting skeletons that deal significant area damage upon impact. The cheapest win condition, effective at punishing small misplays and applying fast, unexpected pressure.",
+        "weakness": "Very low HP, making them vulnerable to practically any form of damage, including the tower and small spells (Zap, Snowball). Easily countered for an even elixir trade or better.",
+        "popularity": "Very High, a core card in many cycle decks, especially those using Miner or Giant Skeleton, due to their low cost and high tower-damage potential."
+      },
+      "related_cards": [
+        {
+          "name": "Miner",
+          "relation": "Synergy",
+          "reason": "The Miner can tank for the Wall Breakers, allowing them to bypass ground troops and focus on reaching the tower."
+        },
+        {
+          "name": "Giant Snowball",
+          "relation": "Direct Counter",
+          "reason": "The Snowball's knockback and damage can eliminate or severely delay the Wall Breakers for an even elixir trade (2-for-2)."
+        },
+        {
+          "name": "Hog Rider",
+          "relation": "Functional Alternative",
+          "reason": "The standard 4-elixir building-targeting win condition, offering more HP and less counter-play compared to the Wall Breakers."
+        }
+      ]
+    },
+    {
+      "name": "Goblin Giant",
+      "elixir": 6,
+      "rarity": "epic",
+      "description": {
+        "strength": "Building-targeting tank with moderate HP and two Spear Goblins mounted on his back who can attack air and ground units. Excellent for initiating a heavy counter-attack or push.",
+        "weakness": "Lower HP than other 6-elixir tanks (like Royal Giant or Giant). The Spear Goblins can be eliminated by small spells or splash damage, reducing his threat level significantly.",
+        "popularity": "Moderate, a staple in 'Sparky' decks and other beatdown decks where the Spear Goblins help clear a path or deal supplemental air damage."
+      },
+      "related_cards": [
+        {
+          "name": "Giant",
+          "relation": "Functional Alternative",
+          "reason": "Cheaper, higher-HP tanking unit that only targets buildings but lacks the ranged air/ground support of the Spear Goblins."
+        },
+        {
+          "name": "Sparky",
+          "relation": "Synergy",
+          "reason": "The Goblin Giant tanks while the Sparky provides immense splash damage, creating a devastating push."
+        },
+        {
+          "name": "Inferno Tower",
+          "relation": "Direct Counter",
+          "reason": "The Inferno Tower's rapidly increasing damage quickly melts the Goblin Giant and the Spear Goblins."
+        }
+      ]
+    },
+    {
+      "name": "Electro Giant",
+      "elixir": 7,
+      "rarity": "epic",
+      "description": {
+        "strength": "High-HP tank that targets buildings. Periodically emits a powerful electrical pulse that stuns and deals damage to all nearby ground and air troops/buildings (except the tower).",
+        "weakness": "Very high elixir cost. Low movement speed. Cannot fully stop high-DPS single-target units (Mini P.E.K.K.A, P.E.K.K.A) before reaching the tower.",
+        "popularity": "High, a core component of heavy beatdown decks that rely on overwhelming the opponent with his tanking and the stun effect on defense."
+      },
+      "related_cards": [
+        {
+          "name": "P.E.K.K.A",
+          "relation": "Direct Counter",
+          "reason": "P.E.K.K.A's high single-target damage takes down the Electro Giant quickly for a positive elixir trade."
+        },
+        {
+          "name": "Zappies",
+          "relation": "Functional Alternative",
+          "reason": "A cheaper unit that offers stuns and distraction but lacks the tanking and building-targeting nature."
+        },
+        {
+          "name": "Tornado",
+          "relation": "Synergy",
+          "reason": "Pulls all defensive troops into the Electro Giant's electric aura for maximum damage and stun effect."
+        }
+      ]
+    },
+    {
+      "name": "Rune Giant",
+      "elixir": 4,
+      "rarity": "epic",
+      "description": {
+        "strength": "Building-targeting tank with moderate HP and a unique ability: every third hit places a temporary defensive rune on the ground that grants a shield to the next friendly troop that steps on it.",
+        "weakness": "Low damage output. The rune's benefit is entirely dependent on having supporting troops that can utilize it. Can be easily distracted away from the tower.",
+        "popularity": "Low, a niche card in beatdown decks that need a cheaper tank but require strong troop synergy to maximize the Rune ability."
+      },
+      "related_cards": [
+        {
+          "name": "Ice Golem",
+          "relation": "Functional Alternative",
+          "reason": "A cheaper tank that only targets buildings and slows/deals death damage, offering more direct control."
+        },
+        {
+          "name": "Wall Breakers",
+          "relation": "Synergy",
+          "reason": "The Rune Giant's shield can be passed to the Wall Breakers, making them much harder to stop from reaching the tower."
+        },
+        {
+          "name": "Inferno Dragon",
+          "relation": "Direct Counter",
+          "reason": "The Inferno Dragon's increasing damage quickly melts the Rune Giant before it can place multiple runes."
+        }
+      ]
+    },
+    {
+      "name": "Freeze",
+      "elixir": 4,
+      "rarity": "epic",
+      "description": {
+        "strength": "Spell that completely paralyzes all enemy troops and buildings in a large radius for a short duration. Excellent for an instant offensive push to allow troops to destroy a tower, or as a defensive measure to stop a heavy push.",
+        "weakness": "High elixir cost and a one-time use. A poor trade if it only freezes one cheap troop or is used prematurely on a defensive push.",
+        "popularity": "Moderate, a classic 'surprise' card used almost exclusively with high-damage win conditions like Balloon or Hog Rider to ensure tower destruction."
+      },
+      "related_cards": [
+        {
+          "name": "Giant Snowball",
+          "relation": "Functional Alternative",
+          "reason": "A cheaper 2-elixir spell that provides a knockback and a brief slow instead of a full freeze."
+        },
+        {
+          "name": "Balloon",
+          "relation": "Synergy",
+          "reason": "The most common and effective pairing where the Balloon is highly vulnerable to defensive units, which Freeze temporarily disables for a guaranteed connection."
+        },
+        {
+          "name": "Tornado",
+          "relation": "Functional Alternative",
+          "reason": "The Tornado controls enemy positioning, while Freeze stops all movement and attacks."
+        }
+      ]
+    },
+    {
+      "name": "Mirror",
+      "elixir": 1,
+      "rarity": "epic",
+      "description": {
+        "strength": "A spell that copies the last card played for +1 elixir cost. Allows for double the pressure (e.g., two Goblin Barrels) or to deploy the perfect counter immediately after the original card dies.",
+        "weakness": "The additional elixir cost makes the mirrored card a worse trade, and the card's original level is decreased by one. The card is highly situational and can be a dead-draw in a bad cycle.",
+        "popularity": "Low, primarily used in cycle/spam decks where the element of surprise or overwhelming quantity is the main strategy."
+      },
+      "related_cards": [
+        {
+          "name": "Clone",
+          "relation": "Functional Alternative",
+          "reason": "A similar 'duplicate' card, but Clone creates weak copies of multiple units simultaneously instead of one strong card later."
+        },
+        {
+          "name": "Goblin Barrel",
+          "relation": "Synergy",
+          "reason": "One of the most common pairings for an overwhelming double attack on the tower."
+        },
+        {
+          "name": "Elixir Collector",
+          "relation": "Synergy",
+          "reason": "Mirroring a Collector can quickly generate a massive elixir advantage for a strong push."
+        }
+      ]
+    },
+    {
+      "name": "Tornado",
+      "elixir": 3,
+      "rarity": "epic",
+      "description": {
+        "strength": "Spell that pulls all enemy troops and buildings in a large radius to its center point for 3 seconds, dealing light damage over time. Essential for activating the King Tower and grouping units for a splash-damage troop or spell.",
+        "weakness": "Does not stop the attack of pulled troops. High skill cap, as a poorly placed Tornado can accidentally send an enemy unit to the tower.",
+        "popularity": "Very High, a staple in control and defense decks, particularly with splash units (Executioner, Wizard) or buildings (King Tower activation)."
+      },
+      "related_cards": [
+        {
+          "name": "Executioner",
+          "relation": "Synergy",
+          "reason": "The best partner for Tornado, as the Executioner's axe hits all troops pulled into the center twice for a guaranteed clear."
+        },
+        {
+          "name": "Poison",
+          "relation": "Synergy",
+          "reason": "Pulls all units into the center of the Poison spell, maximizing the spell's damage over time."
+        },
+        {
+          "name": "The Log",
+          "relation": "Functional Alternative",
+          "reason": "A 2-elixir ground spell that deals knockback and damage, but lacks the ability to reposition air and ground units."
+        }
+      ]
+    },
+    {
+      "name": "Clone",
+      "elixir": 3,
+      "rarity": "epic",
+      "description": {
+        "strength": "Spell that creates a cloned copy of every friendly troop in the radius. Cloned troops are full-speed but have only 1 HP. Excellent for doubling Death Damage effects (Balloon, Golem) or creating a massive, surprising swarm.",
+        "weakness": "Cloned troops die to any form of damage, including a single arrow or a splash attack. A simple Zap spell can wipe out an entire cloned push.",
+        "popularity": "Low, a highly specialized card used only in specific 'Death Damage' or 'Lava Hound' decks to maximize explosive push power."
+      },
+      "related_cards": [
+        {
+          "name": "Balloon",
+          "relation": "Synergy",
+          "reason": "Cloning the Balloon creates a second death bomb, dealing double the damage upon destruction."
+        },
+        {
+          "name": "Lava Hound",
+          "relation": "Synergy",
+          "reason": "Cloning the Hound and its pups creates an enormous swarm of aerial units, making it very difficult to defend."
+        },
+        {
+          "name": "Zap",
+          "relation": "Direct Counter",
+          "reason": "A single Zap instantly destroys all cloned troops for a huge positive elixir trade (+1 or more)."
+        }
+      ]
+    },
+    {
+      "name": "Void",
+      "elixir": 3,
+      "rarity": "epic",
+      "description": {
+        "strength": "Custom Spell: Creates a dark energy field that temporarily disables the special ability of any troop or Champion inside (e.g., no charge, no death spawn, no ability activation). Useful for neutralizing high-threat units without killing them.",
+        "weakness": "Deals no damage and has no effect on buildings or non-ability troops (e.g., Knight). A poor trade against a simple push.",
+        "popularity": "Niche, used to counter ability-heavy decks like Champions or cards with powerful secondary effects (e.g., Mother Witch, Night Witch)."
+      },
+      "related_cards": [
+        {
+          "name": "Electro Wizard",
+          "relation": "Functional Alternative",
+          "reason": "Uses a stun effect to reset charge and attack, but the Void is a spell that disables all abilities."
+        },
+        {
+          "name": "Night Witch",
+          "relation": "Direct Counter",
+          "reason": "Disables the Night Witch's bat-spawning ability while she is in the area, significantly reducing her threat level."
+        },
+        {
+          "name": "Mighty Miner",
+          "relation": "Direct Counter",
+          "reason": "Stops the Mighty Miner's ability from being activated, forcing him to be dealt with only by his base stats."
+        }
+      ]
+    },
+    {
+      "name": "Goblin Curse",
+      "elixir": 2,
+      "rarity": "epic",
+      "description": {
+        "strength": "Custom Spell: A small, low-cost area spell that, upon expiration, transforms the highest HP enemy troop in the radius into a single Goblin. Great for neutralizing high-threat single-target troops for a cheap cost.",
+        "weakness": "Requires a very small window of time to activate, and its effect is random if multiple troops are in the radius. Only effective against single, expensive targets. Cannot curse buildings.",
+        "popularity": "Low, an anti-meta card used to cripple high-value offensive troops like P.E.K.K.A or Mega Knight for a positive elixir trade."
+      },
+      "related_cards": [
+        {
+          "name": "Barbarian Barrel",
+          "relation": "Functional Alternative",
+          "reason": "A cheap spell that deals damage and spawns a tanking troop, offering more consistent utility."
+        },
+        {
+          "name": "P.E.K.K.A",
+          "relation": "Direct Counter",
+          "reason": "A perfect target, as cursing the P.E.K.K.A into a 1-elixir Goblin for only 2 elixir is an immense positive trade (+5)."
+        },
+        {
+          "name": "The Log",
+          "relation": "Functional Alternative",
+          "reason": "Deals damage and knockback but lacks the transformative potential of the Curse."
+        }
+      ]
+    },
+    {
+      "name": "Vines",
+      "elixir": 3,
+      "rarity": "epic",
+      "description": {
+        "strength": "Custom Spell: Creates a patch of thorny vines that roots all ground troops in the area for a short duration, preventing movement (but not attacking). Effective for stalling high-damage tanks or fast win conditions.",
+        "weakness": "No effect on air troops. Ground troops can still attack while rooted, so a high-damage unit (Sparky) can continue to fire. Easily countered by The Log or Barbarian Barrel, which deal damage and destroy the vines.",
+        "popularity": "Niche, a control tool used to slow down fast-paced ground decks (Hog Rider, Battle Ram) and allow defensive buildings or troops to accumulate damage."
+      },
+      "related_cards": [
+        {
+          "name": "Freeze",
+          "relation": "Functional Alternative",
+          "reason": "A higher-cost spell that stops both movement and attacking for both air and ground."
+        },
+        {
+          "name": "Hog Rider",
+          "relation": "Direct Counter",
+          "reason": "The best use case, as the Vines completely stop the Hog Rider's path to the tower, allowing defense to be deployed."
+        },
+        {
+          "name": "The Log",
+          "relation": "Direct Counter",
+          "reason": "Rolls over the Vines, destroying the ground spell for a neutral trade, and still deals damage/knockback to the units."
+        }
+      ]
+    },
+    {
+      "name": "Ice Wizard",
+      "elixir": 3,
+      "rarity": "legendary",
+      "description": {
+        "strength": "Low-damage, air/ground targeting troop whose attack slows the movement and attack speed of all enemies in a small area. Excellent for slowing down large pushes and supporting tanks.",
+        "weakness": "Very low damage, meaning he cannot fully clear swarms without splash support. Easily taken out by a Fireball or a high-DPS unit once engaged.",
+        "popularity": "Very High, a top-tier defensive card in many control and cycle decks due to his low cost and constant slowing utility, which generates immense value over time."
+      },
+      "related_cards": [
+        {
+          "name": "Electro Wizard",
+          "relation": "Functional Alternative",
+          "reason": "Higher-damage, higher-cost Wizard that stuns instead of slows, offering better offense but less persistent control."
+        },
+        {
+          "name": "Tornado",
+          "relation": "Synergy",
+          "reason": "The Ice Wizard provides the slow effect to all units grouped by the Tornado, making them easy to eliminate."
+        },
+        {
+          "name": "Fireball",
+          "relation": "Direct Counter",
+          "reason": "The most common medium spell used to eliminate him and other 3-4 elixir supports for a positive or neutral trade."
+        }
+      ]
+    },
+    {
+      "name": "Sparky",
+      "elixir": 6,
+      "rarity": "legendary",
+      "description": {
+        "strength": "Ground troop with the highest single-hit damage in the game, capable of one-shotting most tanks and instantly clearing swarms. Excellent in both offense and defense when her charge is complete.",
+        "weakness": "Very slow attack speed with a 4-second charge time. The charge is instantly reset by any stun (Zap, Electro Wizard) or the Fisherman's hook. Completely vulnerable to air units and high-HP single-target troops that can reach her.",
+        "popularity": "Moderate, a core card in specific beatdown decks (often with Goblin Giant or Giant) that aim to overwhelm the opponent with tanking and high-risk/high-reward damage."
+      },
+      "related_cards": [
+        {
+          "name": "Electro Wizard",
+          "relation": "Direct Counter",
+          "reason": "The E-Wiz's spawn zap and every attack will reset Sparky's charge, completely neutralizing her for a positive elixir trade."
+        },
+        {
+          "name": "Rocket",
+          "relation": "Direct Counter",
+          "reason": "Instantly destroys the Sparky and damages the tower for a neutral elixir trade (6-for-6)."
+        },
+        {
+          "name": "Goblin Giant",
+          "relation": "Synergy",
+          "reason": "The Goblin Giant tanks while the Spear Goblins on his back clear swarms, allowing Sparky to safely charge and destroy defenses."
+        }
+      ]
+    },
+    {
+      "name": "Bandit",
+      "elixir": 3,
+      "rarity": "legendary",
+      "description": {
+        "strength": "Fast, high-damage melee troop whose 'Dash' ability makes her invulnerable while moving. Excellent for sudden bridge-spam pushes and instantly killing low-HP supports (Musketeer, Princess).",
+        "weakness": "Only targets ground units. Easily distracted and has low HP, making her vulnerable to splash damage and air troops (Minions).",
+        "popularity": "Very High, a cornerstone of 'Bridge Spam' decks and other fast-cycle decks due to her incredible defensive utility and punishing offensive speed."
+      },
+      "related_cards": [
+        {
+          "name": "Royal Ghost",
+          "relation": "Synergy",
+          "reason": "Often paired for a fast 'spam' push, with the Ghost providing invisible splash damage and the Bandit providing invulnerability and high single-target damage."
+        },
+        {
+          "name": "Dark Prince",
+          "relation": "Functional Alternative",
+          "reason": "Another fast, ground-only, close-range bridge spam unit, but the Dark Prince provides a shield and splash damage instead of invulnerability and a dash."
+        },
+        {
+          "name": "P.E.K.K.A",
+          "relation": "Synergy",
+          "reason": "The Bandit is often used to quickly push the opposite lane after a P.E.K.K.A defense, or as a support unit to kill supporting troops."
+        }
+      ]
+    },
+    {
+      "name": "Night Witch",
+      "elixir": 4,
+      "rarity": "legendary",
+      "description": {
+        "strength": "Melee troop that passively spawns Bats and spawns a large group of Bats upon death. Excellent support for ground tanks (Golem, Giant) as she clears air and ground swarms and creates massive Bat pressure.",
+        "weakness": "Low-range, low damage, and easily killed by Fireball and other medium spells. The Bats she spawns can be instantly eliminated by Zap or other small spells.",
+        "popularity": "High, a core component of 'Golem' and other heavy beatdown decks due to her incredible synergy and ability to turn a defense into a devastating counter-push."
+      },
+      "related_cards": [
+        {
+          "name": "Golem",
+          "relation": "Synergy",
+          "reason": "The ultimate pairing; Golem tanks while the Night Witch and her Bats clear defensive units. The death spawn ensures even more pressure."
+        },
+        {
+          "name": "Witch",
+          "relation": "Functional Alternative",
+          "reason": "A higher-cost card that spawns Skeletons instead of Bats, offering ground-only anti-swarm instead of air/ground."
+        },
+        {
+          "name": "Fireball",
+          "relation": "Direct Counter",
+          "reason": "The most common medium spell used to instantly eliminate the Night Witch and potentially a few spawned Bats for a positive trade."
+        }
+      ]
+    },
+    {
+      "name": "Royal Ghost",
+      "elixir": 3,
+      "rarity": "legendary",
+      "description": {
+        "strength": "Melee, splash-damage troop that is invisible until he attacks. This stealth allows him to bypass defense and connect with the tower or surprise back-line support units (Wizards, Musketeers).",
+        "weakness": "Low damage and low HP. The invisibility is nullified as soon as he attacks, making him easy to distract with a single cheap unit.",
+        "popularity": "High, a staple in 'Bridge Spam' and other fast-cycle decks due to his low cost, splash damage, and unique stealth mechanic that can guarantee a connection to the tower."
+      },
+      "related_cards": [
+        {
+          "name": "Bandit",
+          "relation": "Synergy",
+          "reason": "Often paired together in a fast push, with both units being incredibly difficult to stop once they cross the bridge."
+        },
+        {
+          "name": "Dark Prince",
+          "relation": "Functional Alternative",
+          "reason": "Another low-cost, splash-damage ground unit, but the Ghost uses invisibility while the Dark Prince uses a shield/charge."
+        },
+        {
+          "name": "Ice Spirit",
+          "relation": "Synergy",
+          "reason": "A cheap pairing to freeze defending units, allowing the Ghost to get multiple invisible hits before being targeted."
+        }
+      ]
+    },
+    {
+      "name": "Ram Rider",
+      "elixir": 5,
+      "rarity": "legendary",
+      "description": {
+        "strength": "Building-targeting win condition that uses a Battle Ram charge (broken on first building hit) and has a ranged attack that slows and binds ground troops with a lasso. Highly versatile in offense and defense.",
+        "weakness": "High elixir cost and lower HP than most 5-elixir tanks. The binding attack does not affect air units and can be easily overcome by swarms.",
+        "popularity": "High, a core card in specific bridge-spam and cycle decks, valued for her defensive ability to halt ground pushes and her punishing offensive speed."
+      },
+      "related_cards": [
+        {
+          "name": "Hog Rider",
+          "relation": "Functional Alternative",
+          "reason": "The standard 4-elixir building-targeting win condition. Ram Rider is higher cost but provides the unique slow/binding utility."
+        },
+        {
+          "name": "Battle Ram",
+          "relation": "Functional Alternative",
+          "reason": "Cheaper 4-elixir building-targeting card that splits into two Barbarians but lacks the ranged troop/slow attack."
+        },
+        {
+          "name": "Flying Machine",
+          "relation": "Synergy",
+          "reason": "A high-damage, long-range air support unit that can safely follow the Ram Rider and clear defensive units."
+        }
+      ]
+    },
+    {
+      "name": "Mega Knight",
+      "elixir": 7,
+      "rarity": "legendary",
+      "description": {
+        "strength": "High-HP tank with area-of-effect spawn damage and jump attack damage. Excellent at instantly clearing swarms and medium-HP units while initiating a massive push or defense.",
+        "weakness": "Very high elixir cost. Low single-target damage when not jumping. Easily countered by high-HP single-target units (P.E.K.K.A, Mini P.E.K.K.A) that can survive the jump damage.",
+        "popularity": "Very High in mid-ladder, moderate in top-ladder. A classic punishing card used in beatdown decks to clear the board and start an immediate counter-attack."
+      },
+      "related_cards": [
+        {
+          "name": "P.E.K.K.A",
+          "relation": "Direct Counter",
+          "reason": "The P.E.K.K.A's massive single-target damage quickly takes down the Mega Knight for a positive elixir trade (+1)."
+        },
+        {
+          "name": "Electro Giant",
+          "relation": "Functional Alternative",
+          "reason": "A high-cost tank with area damage, but the E-Giant stuns while the Mega Knight uses jump damage."
+        },
+        {
+          "name": "Inferno Dragon",
+          "relation": "Synergy",
+          "reason": "Mega Knight tanks and clears ground swarms, while the Inferno Dragon deals the high single-target damage to buildings and tanks."
+        }
+      ]
+    },
+    {
+      "name": "Fisherman",
+      "elixir": 3,
+      "rarity": "legendary",
+      "description": {
+        "strength": "Low-HP, ranged troop that hooks enemy troops and buildings, pulling them to himself. Excellent for King Tower activation and for pulling tanks off the tower or high-threat units into a powerful defense.",
+        "weakness": "Low attack damage and low HP. The pull ability has a noticeable cooldown. Easily taken out by Fireball or air swarms (Minions).",
+        "popularity": "Very High, a top-tier defensive card in many cycle and control decks due to his low cost, versatility, and unique ability to reposition and isolate enemy troops."
+      },
+      "related_cards": [
+        {
+          "name": "Tornado",
+          "relation": "Functional Alternative",
+          "reason": "A spell that pulls units with more direct control, but lacks the troop presence and damage of the Fisherman."
+        },
+        {
+          "name": "Giant Skeleton",
+          "relation": "Synergy",
+          "reason": "The Fisherman can pull troops directly onto the Giant Skeleton's death bomb, ensuring guaranteed damage."
+        },
+        {
+          "name": "Hog Rider",
+          "relation": "Direct Counter",
+          "reason": "The Fisherman can pull the Hog Rider to the opposite lane or towards the King Tower, neutralizing the threat for a positive elixir trade."
+        }
+      ]
+    },
+    {
+      "name": "Magic Archer",
+      "elixir": 4,
+      "rarity": "legendary",
+      "description": {
+        "strength": "Long-range, air/ground targeting troop whose arrow pierces through all targets in a straight line. Excellent for chipping the tower or clearing multiple units lined up by a tank.",
+        "weakness": "Low damage per shot and long attack cooldown. Can be easily killed by any small spell (The Log, Zap) or medium spell (Fireball).",
+        "popularity": "High, a staple in 'Bridge Spam' and other control decks due to his incredible range and the ability to apply passive, unavoidable chip damage to the Princess Tower."
+      },
+      "related_cards": [
+        {
+          "name": "Princess",
+          "relation": "Functional Alternative",
+          "reason": "Another long-range, area-damage support, but the Princess uses splash instead of a piercing shot."
+        },
+        {
+          "name": "Royal Ghost",
+          "relation": "Synergy",
+          "reason": "Often paired together in a fast push, with the Ghost clearing ground threats and the Magic Archer providing piercing support."
+        },
+        {
+          "name": "The Log",
+          "relation": "Direct Counter",
+          "reason": "A quick, low-cost spell that can instantly eliminate the Magic Archer and damage the tower for a neutral or positive trade."
+        }
+      ]
+    },
+    {
+      "name": "Mother Witch",
+      "elixir": 4,
+      "rarity": "legendary",
+      "description": {
+        "strength": "Ranged, single-target troop whose attack can curse enemy troops. When a cursed troop dies, it transforms into a friendly, building-targeting Cursed Hog. Excellent against swarms and in turning a defense into a devastating counter-attack.",
+        "weakness": "Slow attack speed and low HP, making her vulnerable to Fireball and other spells. Can be easily overwhelmed by high-damage tanks before she can curse them.",
+        "popularity": "High, a versatile and powerful defensive unit that is a top-tier choice in many control and anti-swarm decks."
+      },
+      "related_cards": [
+        {
+          "name": "Witch",
+          "relation": "Functional Alternative",
+          "reason": "A higher-cost troop that spawns Skeletons but lacks the unique Cursed Hog transformation ability."
+        },
+        {
+          "name": "Skeleton Army",
+          "relation": "Direct Counter",
+          "reason": "The Mother Witch's best target, as all Skeletons will be cursed and turn into an overwhelming number of Cursed Hogs."
+        },
+        {
+          "name": "Fireball",
+          "relation": "Direct Counter",
+          "reason": "The most common spell used to instantly eliminate her before she can curse too many troops."
+        }
+      ]
+    },
+    {
+      "name": "Phoenix",
+      "elixir": 4,
+      "rarity": "legendary",
+      "description": {
+        "strength": "Flying, single-target troop with high damage. Its unique ability is that when it dies, it lays an Egg that must be destroyed within a few seconds, or the Phoenix will be reborn at full health. Excellent for persistent pressure and tank support.",
+        "weakness": "The Egg is vulnerable and can be easily destroyed by spells or splash damage, nullifying the rebirth ability. The Phoenix's original HP is moderate.",
+        "popularity": "High, a powerful flying card used in both beatdown and cycle decks due to its high value and the opponent's need to overcommit to killing the Egg."
+      },
+      "related_cards": [
+        {
+          "name": "Lava Hound",
+          "relation": "Functional Alternative",
+          "reason": "A much higher-cost tanking air unit that splits into Lava Pups upon death, offering more direct tanking but lacking the rebirth mechanic."
+        },
+        {
+          "name": "Lightning",
+          "relation": "Direct Counter",
+          "reason": "The Lightning spell can kill the Phoenix and immediately destroy the Egg, preventing the rebirth for a huge elixir advantage."
+        },
+        {
+          "name": "Miner",
+          "relation": "Synergy",
+          "reason": "The Miner can be deployed to tank the tower's damage while the Phoenix is attacking, or to quickly dispatch a defense for the Phoenix's Egg to hatch safely."
+        }
+      ]
+    },
+    {
+      "name": "Goblin Machine",
+      "elixir": 5,
+      "rarity": "legendary",
+      "description": {
+        "strength": "Custom Troop/Building: A slow-moving, high-HP wheeled machine that targets buildings. It has a high-damage, rapid-fire cannon. Upon being destroyed, it becomes a stationary building that continues to fire its cannon until its HP is depleted.",
+        "weakness": "Very slow movement speed makes it easy to kite. The initial troop form has high HP but the building form's HP is low. Easily countered by air units while in troop form.",
+        "popularity": "Niche, a heavy-push unit for beatdown decks that need a persistent lane presence and a powerful siege element."
+      },
+      "related_cards": [
+        {
+          "name": "Cannon Cart",
+          "relation": "Functional Alternative",
+          "reason": "A similar troop/building dual unit, but the Goblin Machine is higher HP and siege-focused while the Cannon Cart is more defensive."
+        },
+        {
+          "name": "Electro Dragon",
+          "relation": "Synergy",
+          "reason": "The Electro Dragon provides splash and stun support, protecting the slow-moving Goblin Machine from swarms."
+        },
+        {
+          "name": "Inferno Tower",
+          "relation": "Direct Counter",
+          "reason": "The Inferno Tower's damage quickly melts the high HP of the Goblin Machine in both its troop and building forms."
+        }
+      ]
+    },
+    {
+      "name": "Graveyard",
+      "elixir": 5,
+      "rarity": "legendary",
+      "description": {
+        "strength": "Spell that can be cast anywhere, which randomly spawns Skeletons over a few seconds. Excellent for applying direct tower pressure, clearing buildings, or supporting a tank push with a swarm of ground troops.",
+        "weakness": "High elixir cost and easily countered by splash-damage troops (Baby Dragon, Valkyrie) or spells (Poison, Tornado) for a strong positive elixir trade.",
+        "popularity": "Very High, a core win condition in 'Graveyard Freeze' and 'Graveyard Poison' decks, valued for its ability to attack the tower from a distance."
+      },
+      "related_cards": [
+        {
+          "name": "Poison",
+          "relation": "Synergy",
+          "reason": "Casting Poison on the Graveyard both defends against opponent's counter-troops and ensures the Skeletons land more hits on the tower."
+        },
+        {
+          "name": "Tornado",
+          "relation": "Direct Counter",
+          "reason": "The Tornado can pull all the spawned Skeletons away from the tower and into the King Tower or a defensive troop."
+        },
+        {
+          "name": "Baby Dragon",
+          "relation": "Direct Counter",
+          "reason": "The Baby Dragon's persistent flying splash damage instantly clears all the Skeletons as they spawn."
+        }
+      ]
+    },
+    {
+      "name": "Spirit Empress",
+      "elixir": 6,
+      "rarity": "legendary",
+      "description": {
+        "strength": "Custom Troop: A high-HP, ranged troop that passively summons a different elemental Spirit (Fire, Ice, Electro) every 5 seconds. Excellent for persistent lane pressure and providing varied support on both offense and defense.",
+        "weakness": "Very high elixir cost. Her summoning rotation is slow, making her vulnerable if the opponent kills her before she can establish a strong presence. Easily targeted by spells.",
+        "popularity": "Niche, a slow-moving support unit for beatdown decks that utilize multiple spirits for defense and offense, requiring protection to maximize value."
+      },
+      "related_cards": [
+        {
+          "name": "Witch",
+          "relation": "Functional Alternative",
+          "reason": "A cheaper card that spawns only Skeletons, offering less variety in support but more consistent swarm defense."
+        },
+        {
+          "name": "Electro Giant",
+          "relation": "Synergy",
+          "reason": "The E-Giant tanks and the Empress provides varied spiritual support to clear swarms and stun/slow defending units."
+        },
+        {
+          "name": "Rocket",
+          "relation": "Direct Counter",
+          "reason": "The high elixir cost makes the Empress a prime target for a neutral or positive elixir trade with a well-placed Rocket."
+        }
+      ]
+    },
+    {
+      "name": "Mighty Miner",
+      "elixir": 4,
+      "rarity": "champion",
+      "description": {
+        "strength": "High-HP, single-target melee troop that targets the closest unit. His Ability (1 Elixir) allows him to drill underground and re-emerge anywhere on the map, leaving a time-delayed bomb at the departure location. Excellent for lane-switching and strong defense.",
+        "weakness": "Low single-target damage until he targets the same unit multiple times. The bomb is easily neutralized by a single unit or spell before it detonates.",
+        "popularity": "Very High, a top-tier champion for both its tanking ability, defensive power, and unique lane-switching pressure."
+      },
+      "related_cards": [
+        {
+          "name": "Miner",
+          "relation": "Functional Alternative",
+          "reason": "The original Miner is cheaper and deals direct tower damage, while the Mighty Miner is a tank with the bomb ability."
+        },
+        {
+          "name": "P.E.K.K.A",
+          "relation": "Synergy",
+          "reason": "Mighty Miner can take care of smaller troops that distract P.E.K.K.A, then use his ability to clear a defensive unit or switch lanes."
+        },
+        {
+          "name": "Goblin Cage",
+          "relation": "Synergy",
+          "reason": "The Mighty Miner can drill to the cage's location to clear troops and secure the Brawler's counter-attack."
+        }
+      ]
+    },
+    {
+      "name": "Skeleton King",
+      "elixir": 4,
+      "rarity": "champion",
+      "description": {
+        "strength": "High-HP, area-damage troop. His Ability (2 Elixir) allows him to summon a horde of Skeletons based on how many friendly troops have died since he was deployed. Excellent for creating a massive counter-push or overwhelming defense.",
+        "weakness": "Relatively slow movement. The Ability is extremely vulnerable to any splash-damage troop or spell (Valkyrie, Zap, Log) which instantly clears the summoned Skeletons.",
+        "popularity": "Very High, a staple in Graveyard and other cycle/swarm decks due to his powerful Ability and the defensive/offensive flexibility it provides."
+      },
+      "related_cards": [
+        {
+          "name": "Skeleton Army",
+          "relation": "Functional Alternative",
+          "reason": "The Skeleton King's Ability is essentially a highly-charged Skeleton Army."
+        },
+        {
+          "name": "Graveyard",
+          "relation": "Synergy",
+          "reason": "Often used together in 'Graveyard' decks. The Skeleton King absorbs damage and, upon dying, can use his Ability to support the Graveyard attack."
+        },
+        {
+          "name": "Valkyrie",
+          "relation": "Direct Counter",
+          "reason": "The Valkyrie's 360-degree splash damage instantly cleans up the Skeleton King's Ability swarm for a strong positive elixir trade."
+        }
+      ]
+    },
+    {
+      "name": "Archer Queen",
+      "elixir": 5,
+      "rarity": "champion",
+      "description": {
+        "strength": "High-damage, long-range air/ground troop. Her Ability (1 Elixir) allows her to go invisible and significantly increases her attack speed for a short duration. The highest DPS unit in the game when her Ability is active.",
+        "weakness": "Highest Elixir cost of all Champions. Low base HP makes her vulnerable to spells before her ability is activated. The Ability is useless if she is distracted by a cheap unit.",
+        "popularity": "Very High, a top-tier champion in various decks, especially control and bridge-spam, due to her unmatched offensive and defensive firepower when deployed correctly."
+      },
+      "related_cards": [
+        {
+          "name": "Musketeer",
+          "relation": "Functional Alternative",
+          "reason": "A cheaper, 4-elixir ranged troop, but the Queen has higher damage, higher HP, and the powerful invisibility/DPS ability."
+        },
+        {
+          "name": "Mega Knight",
+          "relation": "Synergy",
+          "reason": "Mega Knight tanks and clears ground swarms while the Queen uses her ability to melt the tower or any high-HP defensive unit."
+        },
+        {
+          "name": "Rocket",
+          "relation": "Direct Counter",
+          "reason": "A neutral elixir trade (5-for-6) that instantly eliminates the highest threat unit in the game, preventing her ability use."
+        }
+      ]
+    },
+    {
+      "name": "Golden Knight",
+      "elixir": 4,
+      "rarity": "champion",
+      "description": {
+        "strength": "High-HP, melee, splash-damage troop. His Ability (1 Elixir) launches a chain dash, causing him to instantly leap to and damage up to 10 nearby enemies. Excellent for clearing swarms and closing the distance to the tower.",
+        "weakness": "The chain dash is vulnerable to being pulled back by Fisherman or Tornado. The splash damage is not 360 degrees and can be kited by a cheap unit for distraction.",
+        "popularity": "Very High, a top-tier champion in fast-paced bridge-spam and control decks due to his versatility in both defense and his extremely punishing offensive ability."
+      },
+      "related_cards": [
+        {
+          "name": "Bandit",
+          "relation": "Functional Alternative",
+          "reason": "A cheaper unit with a single, invulnerable dash. The Golden Knight has higher HP, splash damage, and the multi-dash ability."
+        },
+        {
+          "name": "Dark Prince",
+          "relation": "Functional Alternative",
+          "reason": "A splash-damage charge unit with a shield. The Golden Knight is higher risk/reward with a more powerful ability."
+        },
+        {
+          "name": "Barbarian Barrel",
+          "relation": "Synergy",
+          "reason": "The Barrel clears any ground swarm in front of the Knight, allowing him to save his ability for the tower or a heavier defense."
+        }
+      ]
+    },
+    {
+      "name": "Monk",
+      "elixir": 5,
+      "rarity": "champion",
+      "description": {
+        "strength": "High-HP, melee troop with a fast 3-hit combo attack. His Ability (1 Elixir) deploys a defensive shield that reflects all enemy projectiles (including spells like Rocket and Fireball) back towards their source for a short duration.",
+        "weakness": "High elixir cost. Only defends against projectile attacks; he is vulnerable to melee troops and beams (Sparky, Inferno Tower). The Ability only lasts for a very short duration and is highly timing-dependent.",
+        "popularity": "Moderate to High, a unique defensive champion used in control decks to neutralize high-cost spells and ranged units (Magic Archer, Hunter) for massive elixir swings."
+      },
+      "related_cards": [
+        {
+          "name": "P.E.K.K.A",
+          "relation": "Functional Alternative",
+          "reason": "Both are high-cost, high-damage melee units, but the Monk has an ability that neutralizes spells, while P.E.K.K.A's value is purely damage."
+        },
+        {
+          "name": "Rocket",
+          "relation": "Direct Counter",
+          "reason": "The best card to reflect, as it deals massive damage to the opponent's tower and troops for a huge positive elixir swing."
+        },
+        {
+          "name": "Electro Wizard",
+          "relation": "Synergy",
+          "reason": "The Monk tanks and reflects spells, while the E-Wiz provides stun support and anti-air defense."
+        }
+      ]
+    },
+    {
+      "name": "Little Prince",
+      "elixir": 3,
+      "rarity": "champion",
+      "description": {
+        "strength": "The lowest-cost Champion. A long-range troop with a very fast attack speed. His Ability (3 Elixir) summons a high-HP 'Guardian' body-guard in front of him, which tanks and deflects a single hit, before dealing high-damage cleave attacks.",
+        "weakness": "The Ability is expensive (3 Elixir) and must be timed perfectly. Low base HP makes him easily killed by a Fireball, leading to a negative trade without the Ability.",
+        "popularity": "Very High, a staple in nearly every deck due to his low cost, high base damage, and the Guardian's powerful defensive utility, providing instant defense or a counter-push."
+      },
+      "related_cards": [
+        {
+          "name": "Archer Queen",
+          "relation": "Functional Alternative",
+          "reason": "The Archer Queen is a higher-cost ranged champion with higher base DPS, while the Little Prince is lower-cost and relies on the Guardian for defense/tanking."
+        },
+        {
+          "name": "Princess",
+          "relation": "Functional Alternative",
+          "reason": "Both are 3-elixir ranged units, but the Little Prince has much faster base fire rate and the potent Guardian ability."
+        },
+        {
+          "name": "Zap",
+          "relation": "Synergy",
+          "reason": "A low-cost spell that instantly clears small swarms that threaten the Guardian or Little Prince."
+        }
+      ]
+    },
+    {
+      "name": "Goblinstein",
+      "elixir": 5,
+      "rarity": "champion",
+      "description": {
+        "strength": "Custom Troop: A slow-moving, high-HP Goblin Golem that targets buildings. Whenever it destroys a troop or building, it gains a temporary small shield stack. Its Ability (2 Elixir) grants it lifesteal on its next 3 attacks, healing it for a portion of the damage dealt.",
+        "weakness": "Slow movement makes it easy to distract and kite. The shield stacks are only gained after a kill, making it vulnerable initially. The Lifesteal ability is vulnerable to being reset by a Zap or Electro Spirit.",
+        "popularity": "Niche, a heavy siege unit for beatdown decks that need a persistent, regenerating tank to break through heavy defenses."
+      },
+      "related_cards": [
+        {
+          "name": "Golem",
+          "relation": "Functional Alternative",
+          "reason": "Higher-cost primary tank that splits into Golemites upon death, offering more consistent tanking, while Goblinstein relies on Lifesteal and shield stacks."
+        },
+        {
+          "name": "Battle Healer",
+          "relation": "Synergy",
+          "reason": "The Battle Healer's passive healing combined with Goblinstein's Lifesteal ability creates a nearly unkillable push."
+        },
+        {
+          "name": "P.E.K.K.A",
+          "relation": "Direct Counter",
+          "reason": "P.E.K.K.A's high single-target damage takes down the Goblinstein quickly, preventing it from accumulating shield stacks or activating its Lifesteal effectively."
+        }
+      ]
+    },
+    {
+      "name": "Boss Bandit",
+      "elixir": 6,
+      "rarity": "champion",
+      "description": {
+        "strength": "Custom Troop: A high-HP, enhanced Bandit with powerful base damage. Her Ability (3 Elixir) triggers an extended, high-damage area dash that hits multiple times and clears all small swarms in its path. Excellent for devastating counter-attacks.",
+        "weakness": "Very high elixir cost. The Ability costs a significant amount of elixir and can be wasted if the target is already dead or out of range. Still vulnerable to air troops.",
+        "popularity": "Niche, used in heavy bridge-spam decks for a late-game, high-risk/high-reward push that can instantly take a tower if unanswered."
+      },
+      "related_cards": [
+        {
+          "name": "Mega Knight",
+          "relation": "Functional Alternative",
+          "reason": "Both are high-cost ground units with a jump/dash mechanic that clears swarms, but the Boss Bandit is faster and more focused on a singular high-damage push."
+        },
+        {
+          "name": "Bandit",
+          "relation": "Component",
+          "reason": "A lower-cost version of the Boss Bandit, lacking the high HP, base damage, and powerful Ability."
+        },
+        {
+          "name": "P.E.K.K.A",
+          "relation": "Direct Counter",
+          "reason": "P.E.K.K.A's high single-target damage quickly takes down the Boss Bandit for a positive elixir trade."
+        }
+      ]
+    },
+    {
+      "name": "P.E.K.K.A",
+      "elixir": 7,
+      "rarity": "epic",
+      "description": {
+        "strength": "The highest base **HP and single-target damage** of any ground troop. Functions as the ultimate **'tank killer'** (Mega Knight, Golem) and a nearly unstoppable defensive anchor or offensive push when supported.",
+        "weakness": "Very **high elixir cost** and slow movement speed. Only targets ground units, leaving it vulnerable to air swarms (Minions, Bats). Easily distracted by cheap ground swarms (Skeletons, Goblin Gang) or defensive buildings.",
+        "popularity": "Very High, a core card in 'P.E.K.K.A Bridge Spam' and heavy control archetypes, valued as the most reliable single-target damage dealer."
+      },
+      "related_cards": [
+        {
+          "name": "Mega Knight",
+          "relation": "Direct Counter",
+          "reason": "P.E.K.K.A's immense single-target damage allows her to quickly defeat the Mega Knight, often resulting in a strong positive elixir trade (+1) without needing additional support."
+        },
+        {
+          "name": "Electro Wizard",
+          "relation": "Synergy",
+          "reason": "The E-Wiz's spawn damage and persistent splash/stun attacks clear the swarms (Goblin Gang, Skeleton Army) that would otherwise distract or destroy the P.E.K.K.A."
+        },
+        {
+          "name": "Mini P.E.K.K.A",
+          "relation": "Functional Alternative",
+          "reason": "A cheaper, faster alternative that also deals high single-target damage, but lacks the supreme tanking ability and raw damage output of the full P.E.K.K.A."
+        }
+      ]
+    }
+  ]
+    }
