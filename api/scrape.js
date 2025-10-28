@@ -1,22 +1,28 @@
-import fetch from "node-fetch";
-import * as cheerio from "cheerio";
+import puppeteer from "puppeteer";
 
 async function scrapePopularDecks() {
-  const res = await fetch("https://royaleapi.com/decks/popular");
-  const html = await res.text();
-  const $ = cheerio.load(html);
+  const browser = await puppeteer.launch({ headless: true });
+  const page = await browser.newPage();
 
-  const decks = [];
+  await page.goto("https://royaleapi.com/decks/popular", {
+    waitUntil: "networkidle2"
+  });
 
-  $(".deck_item").each((i, el) => {
-    const cards = [];
-    $(el)
-      .find(".card_name")
-      .each((_, cardEl) => cards.push($(cardEl).text().trim()));
-    decks.push(cards);
+  const decks = await page.evaluate(() => {
+    const decks = [];
+    document.querySelectorAll(".deck--cards").forEach(deckEl => {
+      const cards = [];
+      deckEl.querySelectorAll("img").forEach(img => {
+        const name = img.getAttribute("alt");
+        if (name) cards.push(name);
+      });
+      decks.push(cards);
+    });
+    return decks;
   });
 
   console.log(decks);
+  await browser.close();
 }
 
 scrapePopularDecks();
