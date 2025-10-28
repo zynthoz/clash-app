@@ -13,9 +13,8 @@ export default async function handler(req, res) {
     });
 
     const page = await browser.newPage();
-    await page.goto("https://royaleapi.com/decks/popular", {
-      waitUntil: "networkidle2",
-    });
+    await page.goto("https://royaleapi.com/decks/popular", { timeout: 60000, waitUntil: "networkidle2" });
+
 
     const decks = await page.evaluate(() => {
       const decks = [];
