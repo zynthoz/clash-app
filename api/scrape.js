@@ -13,29 +13,42 @@ export default async function handler(req, res) {
     });
 
     const page = await browser.newPage();
+
+    let decksData = [];
+
+    // Intercept network responses
+    page.on("response", async (response) => {
+      const url = response.url();
+      if (url.includes("/api/decks/popular")) {
+        try {
+          const json = await response.json();
+          decksData = json.items || json || [];
+        } catch (e) {
+          console.error("Error parsing deck data:", e);
+        }
+      }
+    });
+
     await page.goto("https://royaleapi.com/decks/popular", {
-      waitUntil: ["domcontentloaded", "networkidle2"],
+      waitUntil: "networkidle2",
       timeout: 90000,
     });
 
-    // Wait for deck elements to load
-    await page.waitForSelector(".deck--cards img", { timeout: 20000 });
+    // Wait until we have data or timeout
+    const start = Date.now();
+    while (decksData.length === 0 && Date.now() - start < 10000) {
+      await new Promise((r) => setTimeout(r, 500));
+    }
 
-    const decks = await page.evaluate(() => {
-      const decks = [];
-      document.querySelectorAll(".deck--cards").forEach(deckEl => {
-        const cards = [];
-        deckEl.querySelectorAll("img").forEach(img => {
-          const name = img.getAttribute("alt") || img.getAttribute("title");
-          if (name) cards.push(name);
-        });
-        if (cards.length > 0) decks.push(cards);
-      });
-      return decks;
-    });
-
-    console.log(`✅ Scraped ${decks.length} decks`);
     await browser.close();
+
+    if (!decksData.length)
+      return res.status(500).json({ error: "No deck data found" });
+
+    // Extract only card names
+    const decks = decksData.map((deck) =>
+      (deck.cards || []).map((c) => c.name)
+    );
 
     return res.status(200).json({ decks });
   } catch (err) {
