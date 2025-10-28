@@ -13,30 +13,17 @@ export default async function handler(req, res) {
     });
 
     const page = await browser.newPage();
-    await page.goto("https://royaleapi.com/decks/popular", { timeout: 60000, waitUntil: "networkidle2" });
+    await page.goto("https://royaleapi.com/decks/popular", {
+      waitUntil: ["domcontentloaded", "networkidle2"],
+      timeout: 90000,
+    });
 
-    // Log page title to confirm loading
-    const title = await page.title();
-    console.log("Page title:", title);
-
-    // Log a snippet of the HTML to check structure
-    const bodyHTML = await page.evaluate(() => document.body.innerHTML.substring(0, 1000));
-    console.log("Page body snippet:", bodyHTML);
+    // Wait for deck elements to load
+    await page.waitForSelector(".deck--cards img", { timeout: 20000 });
 
     const decks = await page.evaluate(() => {
       const decks = [];
-      // Try multiple selectors in case the structure changed
-      const selectors = [".deck--cards", ".deck-cards", ".popular-deck", ".deck"];
-      let deckElements = [];
-      for (const selector of selectors) {
-        deckElements = document.querySelectorAll(selector);
-        if (deckElements.length > 0) {
-          console.log(`Found ${deckElements.length} decks with selector: ${selector}`);
-          break;
-        }
-      }
-
-      deckElements.forEach(deckEl => {
+      document.querySelectorAll(".deck--cards").forEach(deckEl => {
         const cards = [];
         deckEl.querySelectorAll("img").forEach(img => {
           const name = img.getAttribute("alt") || img.getAttribute("title");
@@ -47,12 +34,12 @@ export default async function handler(req, res) {
       return decks;
     });
 
-    console.log("Scraped decks:", decks);
-
+    console.log(`✅ Scraped ${decks.length} decks`);
     await browser.close();
+
     return res.status(200).json({ decks });
   } catch (err) {
-    console.error(err);
+    console.error("❌ Scrape failed:", err);
     if (browser) await browser.close();
     return res.status(500).json({ error: err.message });
   }
