@@ -6,6 +6,15 @@
 </head>
 <body>
     <h1>Scrape Page</h1>
-    <script src="api/scrape.js"></script>
+    <script>
+  async function loadDecks() {
+    const res = await fetch("/api/scrape");
+    const data = await res.json();
+    console.log(data.decks);
+  }
+
+  loadDecks();
+</script>
+
 </body>
 </html>
