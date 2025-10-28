@@ -1,20 +1,43 @@
+<!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Scrape Popular Decks</title>
+    <link rel="stylesheet" href="output.css">
 </head>
-<body>
-    <h1>Scrape Page</h1>
+<body class="bg-gradient-to-br from-slate-900 via-blue-950 to-slate-800 min-h-screen flex flex-col items-center text-white pt-16">
+    <div class="container mx-auto px-4 py-8">
+        <h1 class="text-3xl font-bold text-center mb-8">Popular Decks Scraper</h1>
+        <button id="scrapeBtn" class="bg-blue-600 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded mb-4">Scrape Popular Decks</button>
+        <div id="results" class="bg-slate-800 p-4 rounded"></div>
+    </div>
+
     <script>
-  async function loadDecks() {
-    const res = await fetch("/api/scrape");
-    const data = await res.json();
-    console.log(data.decks);
-  }
+        document.getElementById('scrapeBtn').addEventListener('click', async () => {
+            const resultsDiv = document.getElementById('results');
+            resultsDiv.innerHTML = '<p>Loading...</p>';
 
-  loadDecks();
-</script>
+            try {
+                const response = await fetch('/api/scrape');
+                const data = await response.json();
 
+                if (data.decks) {
+                    resultsDiv.innerHTML = '<h2 class="text-xl font-bold mb-4">Scraped Decks:</h2>' +
+                        data.decks.map((deck, index) => `
+                            <div class="mb-4 p-4 bg-slate-700 rounded">
+                                <h3 class="font-bold">Deck ${index + 1}</h3>
+                                <p>${deck.join(', ')}</p>
+                            </div>
+                        `).join('');
+                    console.log('Scraped decks:', data.decks);
+                } else if (data.error) {
+                    resultsDiv.innerHTML = `<p class="text-red-400">Error: ${data.error}</p>`;
+                }
+            } catch (error) {
+                resultsDiv.innerHTML = `<p class="text-red-400">Fetch error: ${error.message}</p>`;
+            }
+        });
+    </script>
 </body>
 </html>
