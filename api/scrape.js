@@ -1,5 +1,8 @@
 import chromium from "@sparticuz/chromium";
-import puppeteer from "puppeteer-core";
+import puppeteer from "puppeteer-extra";
+import StealthPlugin from "puppeteer-extra-plugin-stealth";
+
+puppeteer.use(StealthPlugin());
 
 export default async function handler(req, res) {
   let browser = null;
@@ -14,41 +17,45 @@ export default async function handler(req, res) {
 
     const page = await browser.newPage();
 
-    let decksData = [];
+    // Pretend to be a real user
+    await page.setUserAgent(
+      "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36"
+    );
 
-    // Intercept network responses
-    page.on("response", async (response) => {
-      const url = response.url();
-      if (url.includes("/api/decks/popular")) {
-        try {
-          const json = await response.json();
-          decksData = json.items || json || [];
-        } catch (e) {
-          console.error("Error parsing deck data:", e);
-        }
-      }
-    });
-
+    // Go to RoyaleAPI and wait for it to fully render
     await page.goto("https://royaleapi.com/decks/popular", {
       waitUntil: "networkidle2",
       timeout: 90000,
     });
 
-    // Wait until we have data or timeout
-    const start = Date.now();
-    while (decksData.length === 0 && Date.now() - start < 10000) {
-      await new Promise((r) => setTimeout(r, 500));
+    // Scroll to load lazy decks
+    for (let i = 0; i < 5; i++) {
+      await page.evaluate(() => window.scrollBy(0, window.innerHeight));
+      await new Promise((r) => setTimeout(r, 1500));
     }
+
+    // Wait for deck images
+    await page.waitForSelector(".deck--cards img", { timeout: 30000 });
+
+    // Extract the cards
+    const decks = await page.evaluate(() => {
+      const decks = [];
+      document.querySelectorAll(".deck--cards").forEach(deckEl => {
+        const cards = [];
+        deckEl.querySelectorAll("img").forEach(img => {
+          const name = img.getAttribute("alt") || img.getAttribute("title");
+          if (name) cards.push(name);
+        });
+        if (cards.length) decks.push(cards);
+      });
+      return decks;
+    });
 
     await browser.close();
 
-    if (!decksData.length)
-      return res.status(500).json({ error: "No deck data found" });
-
-    // Extract only card names
-    const decks = decksData.map((deck) =>
-      (deck.cards || []).map((c) => c.name)
-    );
+    if (!decks.length) {
+      return res.status(500).json({ error: "No decks found (after stealth)" });
+    }
 
     return res.status(200).json({ decks });
   } catch (err) {
